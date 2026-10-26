@@ -2,46 +2,46 @@
   "schema": 1,
   "product": "multibook",
   "channel": "stable",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "date": "2026-10-26",
-  "notes": "# Multibook 0.4.1\n\n- **Maths & schémas** : tous les outils de l'onglet restent affichés en permanence ; le bouton\n  « Plus d'outils » n'y apparaît plus, même avec l'interface épurée (`App.TOUJOURS_VISIBLES`).\n- **Linux** : l'impression et l'export PDF compilent enfin (la fenêtre GTK est demandée sur son\n  propre fil) ; paquets construits sur Ubuntu 24.04 (glibc 2.38+ exigée par ONNX Runtime).\n- Android : `versionCode` 5104100.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.4.1",
+  "notes": "# Multibook 0.4.2\n\n- **Paramètres › À propos** : une catégorie à part pour la version de Multibook, son moteur, et\n  les mises à jour (déplacées depuis « Données »). L'entrée « À propos de Multibook » du menu y\n  mène directement.\n- **Mises à jour plus visibles.** La vérification part 1,5 s après l'ouverture (8 s avant). Une\n  nouvelle version s'annonce dans une grande fenêtre : version installée et nouvelle, date,\n  nouveautés mises en forme, puis « Télécharger et installer » avec barre d'avancement, sans\n  quitter la fenêtre. « Ignorer cette version » ne la représente plus au démarrage.\n- Android : `versionCode` 5104200.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.4.2",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.1/Multibook-0.4.1-mac-arm64.dmg",
-      "name": "Multibook-0.4.1-mac-arm64.dmg",
-      "size": 78084176,
-      "sha256": "9e17c8301b02b2f79fcc0c69cc1593bb3aa35c21f7df8e10b96f6af374be9897"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.2/Multibook-0.4.2-mac-arm64.dmg",
+      "name": "Multibook-0.4.2-mac-arm64.dmg",
+      "size": 78084015,
+      "sha256": "ca4e0abe29a1ff00a170e5701615151b43061310054f552121ca37b29d56669d"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.1/Multibook-0.4.1-windows-x64-installateur.exe",
-      "name": "Multibook-0.4.1-windows-x64-installateur.exe",
-      "size": 73534272,
-      "sha256": "b3ab7a254f30562262ae4d2419665f5e2af0cafff6d7701b99cca0e93cc3cfb8"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.2/Multibook-0.4.2-windows-x64-installateur.exe",
+      "name": "Multibook-0.4.2-windows-x64-installateur.exe",
+      "size": 73546145,
+      "sha256": "bb17740af04370b52875a22f5f8a912f63078ad371116cf8f549faeb67e89151"
     },
     "android-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.1/Multibook-0.4.1-android.apk",
-      "name": "Multibook-0.4.1-android.apk",
-      "size": 81049812,
-      "sha256": "a798c6d8feb946a49ca2d2bbf1bdd5851d374854a62226710aa2ade1b40a9a36"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.2/Multibook-0.4.2-android.apk",
+      "name": "Multibook-0.4.2-android.apk",
+      "size": 81053908,
+      "sha256": "df32b0e7f08e0f4799e125f4b7e45343d8e0be143cf72fcd091c4746cf394f2e"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.1/Multibook_0.4.1_amd64.AppImage",
-      "name": "Multibook_0.4.1_amd64.AppImage",
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.2/Multibook_0.4.2_amd64.AppImage",
+      "name": "Multibook_0.4.2_amd64.AppImage",
       "size": 155810296,
-      "sha256": "6e0c6c393a4d8394bd63ff81f182bcccd46eedc661726534ef1e716d4b8e7740"
+      "sha256": "62b5b843a20a95572db58b1a340db45af5a8aaacbeaa05ffeae73925bb0730e8"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.1/Multibook_0.4.1_amd64.deb",
-      "name": "Multibook_0.4.1_amd64.deb",
-      "size": 78917088,
-      "sha256": "5e4669414c6e242ed214f5434db1bb9edfdcf5dc4f519e334bf4d6656a193981"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.2/Multibook_0.4.2_amd64.deb",
+      "name": "Multibook_0.4.2_amd64.deb",
+      "size": 78919962,
+      "sha256": "2a74a53cb935a2c1d32363daeec78a41dae6fe4da19bd5699ee995837619626f"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.1/Multibook-0.4.1-1.x86_64.rpm",
-      "name": "Multibook-0.4.1-1.x86_64.rpm",
-      "size": 78896997,
-      "sha256": "ffb37aacc56d4725b625ad01d4b29bc1e5820c2f7efbcaf34b692e495fb7d19a"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.2/Multibook-0.4.2-1.x86_64.rpm",
+      "name": "Multibook-0.4.2-1.x86_64.rpm",
+      "size": 78899240,
+      "sha256": "742fa5cd26204266079fa4d00cc28de2dfbad5d41d771086be4929afdc8ca70a"
     }
   }
 }
