@@ -2,40 +2,40 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "date": "2026-10-26",
-  "notes": "# ClickDeck 1.15.0 — Blocs de plusieurs cases revus, rubrique Mises à jour (26 octobre 2026)\n\n### Blocs de plusieurs cases (graphiques, météo)\n\n- **Plus aucune touche effacée en douce.** Étirer ou déplacer un bloc\n  supprimait définitivement les touches qu'il recouvrait — alors que\n  l'éditeur annonçait qu'elles étaient « masquées ». Elles sont désormais\n  seulement masquées : elles reviennent quand le bloc rétrécit ou se\n  déplace, et ne sont pas envoyées au boîtier.\n- Le calcul des cases recouvertes suit enfin une seule règle, la même dans\n  la grille et à l'envoi : le premier bloc (ordre de lecture) l'emporte, et\n  un bloc lui-même recouvert ne masque plus rien.\n- L'envoi au boîtier ne modifie plus le profil en mémoire (il travaillait\n  sur l'état React lui-même).\n- **Aperçu de la météo dans la grille**, dans la présentation choisie et à\n  la taille réelle du bloc (auparavant : une simple icône). Les aperçus\n  (météo et graphiques) se redessinent quand on étire le bloc.\n- Une météo « compact » (faite pour une case) étirée sur plusieurs cases\n  passe toute seule en « détaillé » (bloc large) ou « condition » (bloc\n  haut), dans l'éditeur comme avec la poignée de la grille.\n- Nécessite **ClickOS 4.7.0** pour le texte et le pictogramme à l'échelle\n  des grands blocs (`docs/releases/v4.7.0.md`).\n\n### Mises à jour\n\n- Nouvelle rubrique **Paramètres → Mises à jour** : version installée et\n  dernière version de l'application (télécharger, ouvrir l'installeur) ;\n  pour le boîtier, la version qu'il exécute, celle livrée avec\n  l'application et la dernière publiée (télécharger, installer). Un boîtier\n  plus ancien que la version livrée peut être mis à jour sans Internet.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.15.0",
+  "notes": "# ClickDeck 1.16.0 — Mise à jour en un clic, progression visible (27 octobre 2026)\n\n### Mises à jour\n\n- **« Redémarrer et installer ».** Après le téléchargement, ClickDeck\n  s'installe et se relance tout seul : sur macOS, l'application est\n  remplacée en place depuis l'image disque (avec retour à l'ancienne si la\n  copie échoue) ; sous Windows, l'installeur part en silencieux puis relance\n  ClickDeck ; une AppImage remplace l'ancienne. Un .deb/.rpm, ou un dossier\n  sans droits d'écriture, ouvre l'installeur du système.\n- **Barres de progression** pour les téléchargements (application et\n  ClickOS), dans la fenêtre de démarrage comme dans Paramètres → Mises à jour.\n- **ClickOS toujours annoncé** : une version qui exige une application plus\n  récente apparaît avec « mettez d'abord l'application à jour » au lieu\n  d'être masquée.\n- **Installation de ClickOS suivie partout** : l'opération ne dépend plus de\n  l'onglet ouvert. Un bandeau en bas de la fenêtre garde la progression si\n  l'on change d'onglet ou ferme les réglages, avec « Ne fermez pas ClickDeck\n  et ne débranchez pas le boîtier » ; quitter ClickDeck pendant le flash est\n  refusé, avec une explication.\n- Nécessite **ClickOS 4.7.1** pour la météo sans texte répété.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.16.0",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/Clickdeck-1.15.0-arm64.dmg",
-      "name": "Clickdeck-1.15.0-arm64.dmg",
-      "size": 98174367,
-      "sha256": "592125291983f92dd6ea48f11b78373feb754eebf4528654e69bd349daaf93a8"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.16.0/Clickdeck-1.16.0-arm64.dmg",
+      "name": "Clickdeck-1.16.0-arm64.dmg",
+      "size": 98637213,
+      "sha256": "efac9b5a6f020b02cecf78cc7df1afeb76fec5956b9840bd9496131a7d0c3232"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/Clickdeck-1.15.0.AppImage",
-      "name": "Clickdeck-1.15.0.AppImage",
-      "size": 107986605,
-      "sha256": "c074f822bb2f17c599a1dba5f41b3880677c1eabf1ec4a9039ded5e89aeafa5c"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.16.0/Clickdeck-1.16.0.AppImage",
+      "name": "Clickdeck-1.16.0.AppImage",
+      "size": 108482812,
+      "sha256": "b85f4da44f9e811549df6040a1c1b9d05088ae1c7bda343c5ac62afa40cb1e71"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/clickdeck-desktop_1.15.0_amd64.deb",
-      "name": "clickdeck-desktop_1.15.0_amd64.deb",
-      "size": 75423518,
-      "sha256": "f54b8d04f7089b6d28a95c68afef72da4cf4593ccfe1eccfd42c00be74df3963"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.16.0/clickdeck-desktop_1.16.0_amd64.deb",
+      "name": "clickdeck-desktop_1.16.0_amd64.deb",
+      "size": 75820810,
+      "sha256": "c31cd5a1b2afee226148fcbecc6f3bde83876ec764d9cc94476befb0f8de1932"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/clickdeck-desktop-1.15.0.x86_64.rpm",
-      "name": "clickdeck-desktop-1.15.0.x86_64.rpm",
-      "size": 75142585,
-      "sha256": "e334c950a0a3f6abce15e1f79b2ba73d54b54d4fbcd2fc7e326eda4e67904ee7"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.16.0/clickdeck-desktop-1.16.0.x86_64.rpm",
+      "name": "clickdeck-desktop-1.16.0.x86_64.rpm",
+      "size": 75499633,
+      "sha256": "7a8c455b44d145d306a7f301dc1b4dcad6cf3def2c0ee4f790aba10ab8ef274f"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/Clickdeck-Setup-1.15.0.exe",
-      "name": "Clickdeck-Setup-1.15.0.exe",
-      "size": 87965841,
-      "sha256": "6eed0668b14ec0bcd46c69347723fdfc34ad11b760cd7c97793e3e4481d678b9"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.16.0/Clickdeck-Setup-1.16.0.exe",
+      "name": "Clickdeck-Setup-1.16.0.exe",
+      "size": 88901746,
+      "sha256": "4fb54c968b05856424ba81c41ec824d9963496148295eb8ca72895e8bf07d682"
     }
   }
 }
