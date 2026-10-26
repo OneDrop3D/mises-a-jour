@@ -30,6 +30,12 @@
       "name": "clickdeck-desktop-1.14.0.x86_64.rpm",
       "size": 74766049,
       "sha256": "e078509e378e3ba0167be499340892fa286e513ee6bafaacf839b76aaa63fc05"
+    },
+    "windows-x64": {
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.14.0/Clickdeck-Setup-1.14.0.exe",
+      "name": "Clickdeck-Setup-1.14.0.exe",
+      "size": 87028803,
+      "sha256": "5597b1eeec338f79d3b2d41e39bbe37c055f9350b2c03e3395ef8a5c9469360f"
     }
   }
 }
