@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.6.0",
+  "version": "4.7.0",
   "date": "2026-10-26",
-  "notes": "# ClickOS 4.6.0 — Palettes plus rapides, envois plus sûrs\n\n## Plus rapide\n\n- **Pictogrammes compressés.** Le boîtier annonce `\"z\":1` dans\n  `paletteDefAck` et déplie les pictogrammes compressés (plages d'octets\n  nuls) : une palette d'algorigramme ou de circuit pèse environ trois fois\n  moins lourd sur la liaison série. Avec l'application ClickDeck 1.14, qui\n  envoie aussi les éléments en fenêtre glissante, l'affichage d'une palette\n  neuve passe de ~8 s à moins d'une seconde.\n\n## Corrigé\n\n- Un envoi de configuration interrompu (câble débranché, application\n  fermée en plein transfert) laissait l'écran noir et le tactile bloqué\n  jusqu'au redémarrage : après 30 s sans message, l'affichage est rétabli.\n- Les réponses d'erreur d'un paquet d'icône portent désormais `chunkIndex` :\n  l'application les reconnaît tout de suite au lieu d'attendre 20 s.\n- Une configuration illisible (JSON trop gros, mémoire insuffisante) reçoit\n  aussitôt `configApplied` en erreur au lieu d'un silence.\n- Une palette mise à jour sous la même clé est redessinée même quand elle\n  est déjà affichée.\n\n## Apparence\n\n- L'accent du boîtier (touche surlignée, élément de palette choisi, cases\n  « Suite » et « Mes touches ») passe du bleu à l'orange OneDrop3D\n  (#e4572e), le même que dans Multibook et l'application ClickDeck.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.6.0",
+  "notes": "# ClickOS 4.7.0 — Météo lisible sur les grands blocs\n\n## Corrigé\n\n- **Blocs météo de plusieurs cases.** Le texte gardait sa petite police et le\n  pictogramme plafonnait (56 px en « compact », 96 px en « condition ») : un\n  bloc 2 × 2 ou 3 × 2 affichait un petit dessin perdu au milieu. Chaque\n  ligne prend désormais la plus grande des trois polices (18, 32, 52 px) qui\n  tient dans sa bande, et le pictogramme grandit avec le bloc.\n- Les détails du pictogramme (rayons du soleil, gouttes, flocons, éclair)\n  avaient des tailles fixes en pixels : ils suivent maintenant sa taille.\n- Présentation « détaillé » : le soleil ne mord plus sur la température, et\n  la bande du nom s'agrandit dans un grand bloc.\n- Sur une seule case, la température ne déborde plus de sa bande.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.7.0",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.6.0/clickos-v4.6.0.zip",
-      "name": "clickos-v4.6.0.zip",
-      "size": 489326,
-      "sha256": "bf93ce9302c2b0e008d31b19b397e22a52d2b5a799cc25fccf9965466d10c325"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.7.0/clickos-v4.7.0.zip",
+      "name": "clickos-v4.7.0.zip",
+      "size": 489753,
+      "sha256": "2c969985c54330d5da7ed53798b734db9f060ce66ca7b2bc852bf2c6db168fbf"
     }
   },
-  "minAppVersion": "1.14.0"
+  "minAppVersion": "1.15.0"
 }
