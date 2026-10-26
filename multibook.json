@@ -18,6 +18,12 @@
       "name": "Multibook-0.4.0-windows-x64-installateur.exe",
       "size": 73544296,
       "sha256": "6d1c5ad322d9a03dabf6e793e63fcb27ebc4469cd77f129f59993af410140eaa"
+    },
+    "android-arm64": {
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.0/Multibook-0.4.0-android.apk",
+      "name": "Multibook-0.4.0-android.apk",
+      "size": 81049816,
+      "sha256": "49b86cb3de025ce54b6e4b477f1eaf505647f0b0649c8e515621b6edbae798c6"
     }
   }
 }
