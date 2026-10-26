@@ -10,8 +10,14 @@
     "macos-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.0/Multibook-0.4.0-mac-arm64.dmg",
       "name": "Multibook-0.4.0-mac-arm64.dmg",
-      "size": 78082796,
-      "sha256": "4e3183b407b3730bc6c0a632806a87c7adbffd1894f8b48e4c428aa642904f20"
+      "size": 78083224,
+      "sha256": "a938ad18114e2258bafd7fb71732c2d296b7135b92d9df34dd0619d948015daf"
+    },
+    "windows-x64": {
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.0/Multibook-0.4.0-windows-x64-installateur.exe",
+      "name": "Multibook-0.4.0-windows-x64-installateur.exe",
+      "size": 73544296,
+      "sha256": "6d1c5ad322d9a03dabf6e793e63fcb27ebc4469cd77f129f59993af410140eaa"
     }
   }
 }
