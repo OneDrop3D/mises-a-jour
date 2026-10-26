@@ -2,40 +2,40 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "date": "2026-10-26",
-  "notes": "# ClickDeck 1.14.0 — Palettes en moins d'une seconde, mises à jour vérifiées, nouvelle allure (26 octobre 2026)\n\n### Plus rapide\n\n- **Palettes de Multibook.** Il fallait ~8 s avant que le boîtier affiche\n  les symboles d'un algorigramme ou d'un circuit. Trois causes, trois\n  corrections : chaque écriture série attendait le `drain` du pilote USB\n  (jusqu'à plusieurs centaines de ms sous macOS) ; les éléments partaient un\n  par un, chacun attendant son accusé ; et les pictogrammes, surtout faits de\n  vide, passaient bruts. Désormais : plus de `drain` par commande, six\n  éléments en vol, pictogrammes compressés (×3 plus légers, ClickOS ≥ 4.6).\n- **Envoi des configurations.** Le même `drain` pesait sur chaque\n  aller-retour (une icône = un aller-retour) ; une pause fixe de 120 ms a\n  aussi été retirée.\n\n### Mises à jour\n\n- L'application lit le **manifeste commun OneDrop3D** (application,\n  firmware et Multibook) : site OneDrop3D (`CLICKDECK_UPDATE_SITE_URL`) puis\n  dépôt GitHub `OneDrop3D/mises-a-jour`, la version la plus haute l'emporte.\n  Un fichier par plateforme ; taille et **SHA-256 vérifiées** avant\n  installation.\n- Le firmware proposé se compare à la version **réellement exécutée par le\n  boîtier** (réponse au ping), plus à celle embarquée dans l'application.\n\n### Corrigé\n\n- « Flasher ClickOS » installait **ClickOS 4.0.0** : le flasheur lisait de\n  vieux `firmware.bin` restés dans le dossier au lieu des binaires nommés\n  dans `version.json`.\n- Cmd+S réécrivait le profil du démarrage ; Cmd+U et « Envoyer la config »\n  du tray rechargeaient la configuration du boîtier au lieu d'envoyer les\n  modifications.\n- Connecter (Cmd+K), Déconnecter et Télécharger la config (Cmd+D) du menu ne\n  faisaient rien ; « Nouveau profil » et « Ouvrir », sans effet, sont retirés.\n- Deux touches appuyées vite pouvaient s'exécuter en même temps (« 21 » au\n  lieu de « 12 », collages croisés) : elles passent maintenant une par une.\n- Un modèle choisi depuis le tray enregistrait le profil sous son nom (jamais\n  relu) et ne sauvegardait pas le modèle quitté.\n- Plus de 10 pages : refus clair au lieu d'un `invalid_config`.\n- Un envoi raté sur un port ouvert ne fait plus croire à une déconnexion ;\n  un reste de ligne série n'abîme plus le premier message après\n  rebranchement ; un flash ne peut plus être lancé deux fois ni voir son port\n  repris par la connexion automatique.\n- Le pied de la barre latérale affiche la vraie version (et non « v1.0.0 »).\n- Téléchargement des mises à jour : une redirection (GitHub en fait toujours\n  une) déclarait le fichier « fini » avant qu'il soit reçu ; la réponse est\n  maintenant examinée avant d'ouvrir le fichier, et une source muette ne\n  bloque plus la vérification.\n\n### Apparence\n\n- Mêmes fondations que Multibook : orange OneDrop3D, gris tièdes en clair,\n  nuit bleutée en sombre, police du système pour l'interface (JetBrains Mono\n  reste celle des touches), rayons arrondis communs. Une seule action en\n  couleur dans la barre latérale (« Envoyer au ClickDeck ») ; Connecter passe\n  à l'accent, Déconnecter devient neutre ; fenêtre de mise à jour assortie.\n- Nécessite **ClickOS 4.6.0** pour les palettes compressées (fonctionne avec\n  4.5.0, en plus lent).",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.14.0",
+  "notes": "# ClickDeck 1.15.0 — Blocs de plusieurs cases revus, rubrique Mises à jour (26 octobre 2026)\n\n### Blocs de plusieurs cases (graphiques, météo)\n\n- **Plus aucune touche effacée en douce.** Étirer ou déplacer un bloc\n  supprimait définitivement les touches qu'il recouvrait — alors que\n  l'éditeur annonçait qu'elles étaient « masquées ». Elles sont désormais\n  seulement masquées : elles reviennent quand le bloc rétrécit ou se\n  déplace, et ne sont pas envoyées au boîtier.\n- Le calcul des cases recouvertes suit enfin une seule règle, la même dans\n  la grille et à l'envoi : le premier bloc (ordre de lecture) l'emporte, et\n  un bloc lui-même recouvert ne masque plus rien.\n- L'envoi au boîtier ne modifie plus le profil en mémoire (il travaillait\n  sur l'état React lui-même).\n- **Aperçu de la météo dans la grille**, dans la présentation choisie et à\n  la taille réelle du bloc (auparavant : une simple icône). Les aperçus\n  (météo et graphiques) se redessinent quand on étire le bloc.\n- Une météo « compact » (faite pour une case) étirée sur plusieurs cases\n  passe toute seule en « détaillé » (bloc large) ou « condition » (bloc\n  haut), dans l'éditeur comme avec la poignée de la grille.\n- Nécessite **ClickOS 4.7.0** pour le texte et le pictogramme à l'échelle\n  des grands blocs (`docs/releases/v4.7.0.md`).\n\n### Mises à jour\n\n- Nouvelle rubrique **Paramètres → Mises à jour** : version installée et\n  dernière version de l'application (télécharger, ouvrir l'installeur) ;\n  pour le boîtier, la version qu'il exécute, celle livrée avec\n  l'application et la dernière publiée (télécharger, installer). Un boîtier\n  plus ancien que la version livrée peut être mis à jour sans Internet.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.15.0",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.14.0/Clickdeck-1.14.0-arm64.dmg",
-      "name": "Clickdeck-1.14.0-arm64.dmg",
-      "size": 97591090,
-      "sha256": "bbf82dce31c4b60f51dfff27f5a75309ada7e0734e92722295392c50e5aea93b"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/Clickdeck-1.15.0-arm64.dmg",
+      "name": "Clickdeck-1.15.0-arm64.dmg",
+      "size": 98174367,
+      "sha256": "592125291983f92dd6ea48f11b78373feb754eebf4528654e69bd349daaf93a8"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.14.0/Clickdeck-1.14.0.AppImage",
-      "name": "Clickdeck-1.14.0.AppImage",
-      "size": 107494607,
-      "sha256": "913ffca73cc301ddfb8bdc1a420b7477dc1d5d6eb7298d0af91e9913cfe7be2a"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/Clickdeck-1.15.0.AppImage",
+      "name": "Clickdeck-1.15.0.AppImage",
+      "size": 107986605,
+      "sha256": "c074f822bb2f17c599a1dba5f41b3880677c1eabf1ec4a9039ded5e89aeafa5c"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.14.0/clickdeck-desktop_1.14.0_amd64.deb",
-      "name": "clickdeck-desktop_1.14.0_amd64.deb",
-      "size": 75035726,
-      "sha256": "2ffe19c78cee42016e1d50b5dfac3a2e86600c2f35e3b7c1e3573ca77bab9ce5"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/clickdeck-desktop_1.15.0_amd64.deb",
+      "name": "clickdeck-desktop_1.15.0_amd64.deb",
+      "size": 75423518,
+      "sha256": "f54b8d04f7089b6d28a95c68afef72da4cf4593ccfe1eccfd42c00be74df3963"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.14.0/clickdeck-desktop-1.14.0.x86_64.rpm",
-      "name": "clickdeck-desktop-1.14.0.x86_64.rpm",
-      "size": 74766049,
-      "sha256": "e078509e378e3ba0167be499340892fa286e513ee6bafaacf839b76aaa63fc05"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/clickdeck-desktop-1.15.0.x86_64.rpm",
+      "name": "clickdeck-desktop-1.15.0.x86_64.rpm",
+      "size": 75142585,
+      "sha256": "e334c950a0a3f6abce15e1f79b2ba73d54b54d4fbcd2fc7e326eda4e67904ee7"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.14.0/Clickdeck-Setup-1.14.0.exe",
-      "name": "Clickdeck-Setup-1.14.0.exe",
-      "size": 87028803,
-      "sha256": "5597b1eeec338f79d3b2d41e39bbe37c055f9350b2c03e3395ef8a5c9469360f"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.15.0/Clickdeck-Setup-1.15.0.exe",
+      "name": "Clickdeck-Setup-1.15.0.exe",
+      "size": 87965841,
+      "sha256": "6eed0668b14ec0bcd46c69347723fdfc34ad11b760cd7c97793e3e4481d678b9"
     }
   }
 }
