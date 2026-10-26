@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.7.0",
+  "version": "4.7.1",
   "date": "2026-10-26",
-  "notes": "# ClickOS 4.7.0 — Météo lisible sur les grands blocs\n\n## Corrigé\n\n- **Blocs météo de plusieurs cases.** Le texte gardait sa petite police et le\n  pictogramme plafonnait (56 px en « compact », 96 px en « condition ») : un\n  bloc 2 × 2 ou 3 × 2 affichait un petit dessin perdu au milieu. Chaque\n  ligne prend désormais la plus grande des trois polices (18, 32, 52 px) qui\n  tient dans sa bande, et le pictogramme grandit avec le bloc.\n- Les détails du pictogramme (rayons du soleil, gouttes, flocons, éclair)\n  avaient des tailles fixes en pixels : ils suivent maintenant sa taille.\n- Présentation « détaillé » : le soleil ne mord plus sur la température, et\n  la bande du nom s'agrandit dans un grand bloc.\n- Sur une seule case, la température ne déborde plus de sa bande.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.7.0",
+  "notes": "# ClickOS 4.7.1 — Météo sans texte répété\n\n## Corrigé\n\n- **Blocs de plusieurs cases : texte répété et superposé.** Un bloc est\n  dessiné case par case, chaque case recevant tout le bloc décalé. Le texte\n  qui dépassait le bord d'une case repartait à la ligne suivante (retour à la\n  ligne automatique de la bibliothèque graphique, jamais désactivé) : la\n  température, la condition et le nom se répétaient, se chevauchaient et\n  « coulaient » vers le bas. Le retour à la ligne est coupé ; ce qui dépasse\n  d'une case est dessiné par sa voisine.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.7.1",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.7.0/clickos-v4.7.0.zip",
-      "name": "clickos-v4.7.0.zip",
-      "size": 489753,
-      "sha256": "2c969985c54330d5da7ed53798b734db9f060ce66ca7b2bc852bf2c6db168fbf"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.7.1/clickos-v4.7.1.zip",
+      "name": "clickos-v4.7.1.zip",
+      "size": 489750,
+      "sha256": "2be476a99891a62ae95447d2ff29da2b3229c67098bf980139cac6f5ca021a15"
     }
   },
-  "minAppVersion": "1.15.0"
+  "minAppVersion": "1.16.0"
 }
