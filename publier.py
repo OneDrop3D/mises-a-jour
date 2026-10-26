@@ -92,7 +92,8 @@ def main():
         "channel": "stable",
         "version": version,
         "date": datetime.date.today().isoformat(),
-        "notes": open(a.notes, encoding="utf-8").read().strip() if a.notes else "",
+        "notes": (open(a.notes, encoding="utf-8").read().strip() if a.notes
+                  else ancien.get("notes", "") if ancien.get("version") == version else ""),
         "page": f"https://github.com/{DEPOT}/releases/tag/{etiquette}",
         "files": dict(ancien.get("files", {})),
     }
@@ -117,9 +118,16 @@ def main():
                 renommes.append(lien)
             f["chemin"] = lien
     try:
-        subprocess.run(["gh", "release", "create", etiquette, "--repo", DEPOT,
-                        "--title", f"{a.produit} {version}", "--notes", manifeste["notes"] or etiquette,
-                        *[f["chemin"] for f in fichiers.values()]], check=True)
+        existe = subprocess.run(["gh", "release", "view", etiquette, "--repo", DEPOT],
+                                capture_output=True).returncode == 0
+        if existe:
+            # même version, nouveaux systèmes (ou fichier refait) : on complète la release
+            subprocess.run(["gh", "release", "upload", etiquette, "--repo", DEPOT, "--clobber",
+                            *[f["chemin"] for f in fichiers.values()]], check=True)
+        else:
+            subprocess.run(["gh", "release", "create", etiquette, "--repo", DEPOT,
+                            "--title", f"{a.produit} {version}", "--notes", manifeste["notes"] or etiquette,
+                            *[f["chemin"] for f in fichiers.values()]], check=True)
     finally:
         for lien in renommes:
             os.remove(lien)
@@ -127,7 +135,8 @@ def main():
     with open(cible, "w", encoding="utf-8") as f:
         f.write(texte)
     subprocess.run(["git", "-C", ICI, "add", f"{a.produit}.json"], check=True)
-    subprocess.run(["git", "-C", ICI, "commit", "-m", f"{a.produit} {version}"], check=True)
+    systemes = ", ".join(fichiers)
+    subprocess.run(["git", "-C", ICI, "commit", "-m", f"{a.produit} {version} ({systemes})"], check=True)
     subprocess.run(["git", "-C", ICI, "push"], check=True)
     print(f"{a.produit} {version} publié.")
 
