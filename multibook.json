@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "product": "multibook",
+  "channel": "stable",
+  "version": "0.4.0",
+  "date": "2026-10-26",
+  "notes": "# Multibook 0.4.0\n\n- **Mises à jour.** Paramètres › Données › Mises à jour : Multibook lit le manifeste commun\n  OneDrop3D (site `/api/mises-a-jour/multibook`, adresse fixée à la compilation par\n  `MULTIBOOK_SITE_MAJ`, puis `OneDrop3D/mises-a-jour` sur GitHub), télécharge le fichier de sa\n  plateforme, vérifie taille et SHA-256, puis ouvre l'installeur (`src-tauri/src/maj.rs`). Une\n  vérification discrète au démarrage, désactivable.\n- **Rien ne se perd à la fermeture.** Fermer la fenêtre ou ⌘Q envoie d'abord `mb:closing` :\n  l'interface écrit la feuille en cours et les brouillons bureautiques, puis ferme (filet de\n  3 s). Auparavant, aucun module n'émettait cet évènement et ⌘Q coupait sans enregistrer.\n- **Fichier de données abîmé.** Un `multibook.json` tronqué n'est plus remplacé par les cahiers\n  d'exemple : il est mis de côté (`multibook.illisible-….json`) et le miroir prend le relais.\n  Les écritures sont posées sur le disque (`sync_all`) avant renommage ; l'enregistrement d'un\n  document Word/Excel/PowerPoint ne vide plus jamais l'original avant de le réécrire.\n- **ClickDeck.** Palettes affichées en moins d'une seconde (avec ClickDeck 1.14 / ClickOS 4.6),\n  pictogrammes dessinés d'avance, connexion vue tout de suite ; le boîtier ne reste plus bloqué\n  sur une palette quittée pendant son envoi.\n- **Corrections.** Algorigramme : flèche « bas → côté » qui traversait le bloc, agrandissement\n  faux en zoom ; menu contextuel qui désactivait le bloc (sélecteur `.ctx` mort) ; raccourci\n  impossible à effacer ; « Lire la sélection » au premier usage ; correcteur du système rallumé\n  après « Ajouter au dictionnaire » ; « Utiliser Multibook » sans rien cocher qui prenait tous\n  les types sur Mac ; liens `mailto:` ; accents et tutoiement de quelques messages.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.4.0",
+  "files": {
+    "macos-arm64": {
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.4.0/Multibook-0.4.0-mac-arm64.dmg",
+      "name": "Multibook-0.4.0-mac-arm64.dmg",
+      "size": 78082796,
+      "sha256": "4e3183b407b3730bc6c0a632806a87c7adbffd1894f8b48e4c428aa642904f20"
+    }
+  }
+}
