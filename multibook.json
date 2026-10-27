@@ -2,46 +2,46 @@
   "schema": 1,
   "product": "multibook",
   "channel": "stable",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "date": "2026-10-27",
-  "notes": "# Multibook 0.5.0\n\n## Licence\n\n- **Achat unique.** Multibook s'achète une seule fois : une licence vaut pour **3 appareils** (Mac, Windows, Linux et Android) et pour toutes les mises à jour.\n- **14 jours d'essai** complets pour découvrir Multibook. Ensuite, il passe en **lecture seule** : vous pouvez toujours ouvrir, lire, exporter et sauvegarder vos cahiers, mais plus les modifier.\n- **Paramètres › À propos › Licence** : collez la clé reçue après l'achat, puis « Activer ». Vous y voyez vos appareils et pouvez en libérer un pour en utiliser un autre.\n- Vos cahiers restent toujours à vous : ils ne dépendent pas de la licence.\n\n## À savoir\n\n- Désinstaller Multibook sous Windows ou Linux libère automatiquement la place de l'appareil.\n- Sans Internet, Multibook continue de fonctionner normalement pendant 30 jours.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.5.0",
+  "notes": "# Multibook 0.5.1\n\n## Licence et essai\n\n- **Bienvenue au premier démarrage** : une fenêtre explique les 14 jours d'essai gratuit et vous laisse entrer tout de suite votre clé de licence si vous en avez déjà une.\n- **Rappel à chaque lancement** : une notification en bas de l'écran indique les jours d'essai restants, avec un accès direct pour entrer votre licence.\n- **Paramètres › À propos › Licence** : vous y ajoutez votre licence, voyez vos appareils et pouvez en libérer un.\n- Correction : la rubrique Licence s'affichait vide dans certains cas.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.5.1",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.0/Multibook-0.5.0-mac-arm64.dmg",
-      "name": "Multibook-0.5.0-mac-arm64.dmg",
-      "size": 78119822,
-      "sha256": "9c8cafefe707e5ef6929aaf8b3582ee3a57ebd58c75cdadfd92cdaa1d2632197"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.1/Multibook-0.5.1-mac-arm64.dmg",
+      "name": "Multibook-0.5.1-mac-arm64.dmg",
+      "size": 78118200,
+      "sha256": "5c53caeff78c91dbbfd6f3a87c46a16174e372bce455bc22e28a2e43236ee3c6"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.0/Multibook-0.5.0-windows-x64-installateur.exe",
-      "name": "Multibook-0.5.0-windows-x64-installateur.exe",
-      "size": 73586004,
-      "sha256": "dd9589717a745b51d53ae39aeb64858c1f4bb1f7fb53aaa24d30077b5f3d625f"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.1/Multibook-0.5.1-windows-x64-installateur.exe",
+      "name": "Multibook-0.5.1-windows-x64-installateur.exe",
+      "size": 73585932,
+      "sha256": "a8e4242579d71660291531513a9a623b0bb9eacbd366ab294af8b16875d96aef"
     },
     "android-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.0/Multibook-0.5.0-android.apk",
-      "name": "Multibook-0.5.0-android.apk",
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.1/Multibook-0.5.1-android.apk",
+      "name": "Multibook-0.5.1-android.apk",
       "size": 81178492,
-      "sha256": "c8734f423f9b703876c7cd81a1edf81dc53fdf8380ce5816f9bfb0c0731404b1"
+      "sha256": "f6e3ae7ee4d4dafa010b813bcd4c09e047c0ea92bf65c65b1f4481fab4e612b1"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.0/Multibook_0.5.0_amd64.AppImage",
-      "name": "Multibook_0.5.0_amd64.AppImage",
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.1/Multibook_0.5.1_amd64.AppImage",
+      "name": "Multibook_0.5.1_amd64.AppImage",
       "size": 155884024,
-      "sha256": "edbdae543caa710c488245c6a97489a48dce1de4c33e4a4ed25406390a2d92b9"
+      "sha256": "6d9de864f3f2e790e7c4b4f1fb6aee126b0a745c92aa98728e8584de2f809ee3"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.0/Multibook_0.5.0_amd64.deb",
-      "name": "Multibook_0.5.0_amd64.deb",
-      "size": 78963528,
-      "sha256": "4076e5ef49bfa48b1ae34b7b36701cd5c14512795e82f041b577e5a2d9f401b5"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.1/Multibook_0.5.1_amd64.deb",
+      "name": "Multibook_0.5.1_amd64.deb",
+      "size": 78964686,
+      "sha256": "7c8982df4d28e78b16461d86ff923d42074049fd3581b372c46494f1e8d98a67"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.0/Multibook-0.5.0-1.x86_64.rpm",
-      "name": "Multibook-0.5.0-1.x86_64.rpm",
-      "size": 78942471,
-      "sha256": "b717d66c8a969239b450a6ea07f965e0cd317c89e3ddf550d3dd663988bce5e1"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.5.1/Multibook-0.5.1-1.x86_64.rpm",
+      "name": "Multibook-0.5.1-1.x86_64.rpm",
+      "size": 78943681,
+      "sha256": "25b33244a58299c90465c439d3f1fee1afdf34e5ce87812af57c8ed65dcd91aa"
     }
   }
 }
