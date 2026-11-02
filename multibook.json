@@ -2,46 +2,46 @@
   "schema": 1,
   "product": "multibook",
   "channel": "stable",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "date": "2026-11-02",
-  "notes": "# Multibook 0.6.0 — nouveautés\n\n- **Bureautique : ouverture.** Tout fichier ouvert (double-clic, « Ouvrir avec », fichiers récents, glissé sur la fenêtre) s'ouvre dans la bureautique, dans le bon module. Rien n'entre dans un cahier sans geste explicite (glisser sur une feuille, ou « Insérer dans le cahier »).\n- **Éditeur d'images** : PNG, JPEG, WebP, GIF, BMP, AVIF, HEIC, TIFF et SVG. Recadrage, rotation, redressement, réglages, filtres, annotations, flou, export PNG / JPEG / BMP / SVG / PDF. Les SVG se modifient élément par élément.\n- **Lecteur vidéo et audio** maison : aperçu au survol, vitesse, boucle A-B, capture d'image, sous-titres .srt / .vtt, reprise de lecture.\n- **Ruban** : les groupes (Presse-papiers, Police, Paragraphe, Outils d'encre, Plume, Zoom) sont définis une seule fois et partagés par les cahiers et toute la bureautique. Le ruban du PDF est construit comme celui des cahiers.\n- **PDF vers Word** : en-tête et pied répétés deviennent de vrais en-tête et pied, avec numéro de page automatique ; les phrases coupées par un changement de page sont recollées ; la conversion est environ six fois plus rapide ; « Annuler » fonctionne pendant la conversion.\n- **Longs documents** : frappe fluide même sur plusieurs centaines de pages ; le compte de mots et la correction se mettent à jour à la pause.\n- **Éditeur des cahiers** : Retour arrière dans une liste à puces (le curseur reste devant le mot) ; défilement progressif pendant une sélection à la souris ; un seul menu au clic droit sur un mot souligné.\n- **Jeux de frappe** : clavier des leçons non rogné ; pendu joué sur un clavier AZERTY à l'écran ; export de profil réimportable (« Exporter ce profil ») ; course corrigée (départ commun, voiture du joueur visible).\n- **Pronote et École Directe (bêta)** : connexion par l'ENT (monlycee.net), QR code, identifiants, ou École Directe. Emploi du temps, devoirs (cochés dans les deux sens), notes, absences, messagerie, informations et cantine. Cloche des nouveautés en haut à gauche. La reconnexion sans mot de passe est en cours de vérification. Les mots de passe ne sont jamais enregistrés. Paramètres › École.\n- **Icônes** : jeu Papicons (PapillonApp, licence MIT, fourni avec sa licence dans `app/vendor/papicons/`).",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.0",
+  "notes": "# Multibook 0.6.1 — nouveautés\n\n- **Mise à jour automatique** : « Redémarrer et installer » enregistre vos cahiers, ferme Multibook, installe la nouvelle version et le rouvre (retour à l'ancienne version si l'installation échoue). Elle prend effet à partir de la prochaine mise à jour : la 0.6.0 doit d'abord être remplacée à la main, une fois.\n- **Ruban** : cahiers et bureautique alignés au pixel (mêmes boutons, mêmes places, mêmes libellés) ; le sélecteur de police affiche la police réellement utilisée ; fonctions complétées (classeur, présentation, image).\n- **Longs documents** : bien plus fluides (correcteur par tranches, pages affichées à la demande, passage Cahiers ↔ Bureautique allégé). Le trait jaune des sauts de page est supprimé.\n- **Éditeur d'images** : déplacement, zoom et réglages beaucoup plus fluides sur les grandes photos.\n- **Lecteur vidéo** : pause immédiate ; pistes audio, sous-titres (langue, décalage, rythme), égaliseur, liste de lecture, chapitres, signets, menu contextuel et bien d'autres fonctions.\n- **École (bêta)** : connexion par l'ENT simplifiée (liste d'ENT, navigateur reconnu par Pronote), champ de ville corrigé.\n- **Icônes** : toutes redessinées dans le style Papicons.\n- **Barre du haut** : le mode évaluation est de nouveau visible ; la roue des paramètres n'est plus répétée dans les cahiers.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.1",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.0/Multibook-0.6.0-mac-arm64.dmg",
-      "name": "Multibook-0.6.0-mac-arm64.dmg",
-      "size": 79524483,
-      "sha256": "8ccc0f09226b3655e1d9a3d3fc6237923d1b36693637f3429352f142949fa518"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.1/Multibook-0.6.1-mac-arm64.dmg",
+      "name": "Multibook-0.6.1-mac-arm64.dmg",
+      "size": 78666405,
+      "sha256": "b5b73c6f84d36e3585699100ede0b39f99f2884ea15fc3ea925caba0a3afc8bd"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.0/Multibook-0.6.0-windows-x64-installateur.exe",
-      "name": "Multibook-0.6.0-windows-x64-installateur.exe",
-      "size": 73977864,
-      "sha256": "c3f8ed2133372cbd4fa6ab424eb239142723267df00d2e8e9bfa4bf94a8daab7"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.1/Multibook-0.6.1-windows-x64-installateur.exe",
+      "name": "Multibook-0.6.1-windows-x64-installateur.exe",
+      "size": 74092682,
+      "sha256": "c60b041f1f6d8e96f01e4424c23ac5cc915dc666373d0e9ab9ca92881d722197"
     },
     "android-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.0/Multibook-0.6.0-android.apk",
-      "name": "Multibook-0.6.0-android.apk",
-      "size": 81998176,
-      "sha256": "be7c3e4379d3736847a60954091399a4c1a13bd4380d3c7105b212625c40e15a"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.1/Multibook-0.6.1-android.apk",
+      "name": "Multibook-0.6.1-android.apk",
+      "size": 82156300,
+      "sha256": "f982bef85df4db05227270939ae9e00963acbe1122b8215e21abffd80612d35b"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.0/Multibook_0.6.0_amd64.AppImage",
-      "name": "Multibook_0.6.0_amd64.AppImage",
-      "size": 156260856,
-      "sha256": "f904f5c38d026110ac1fd50cf77977e52e5a25146169f4b1e7389957873c2ba0"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.1/Multibook_0.6.1_amd64.AppImage",
+      "name": "Multibook_0.6.1_amd64.AppImage",
+      "size": 156396024,
+      "sha256": "f0de836be0b7d00d6f529b7d143f7190002a004534427426cd2380956ad8f6af"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.0/Multibook_0.6.0_amd64.deb",
-      "name": "Multibook_0.6.0_amd64.deb",
-      "size": 79401654,
-      "sha256": "24fdaeb765f4af2c7a9392dcc1c2c519f853d2c463b02a4698d5834bfe99be1b"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.1/Multibook_0.6.1_amd64.deb",
+      "name": "Multibook_0.6.1_amd64.deb",
+      "size": 79519698,
+      "sha256": "bda396caa7782cd97e79f9d4c5d12a127f53806d764f24660aecc9fb4faadf93"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.0/Multibook-0.6.0-1.x86_64.rpm",
-      "name": "Multibook-0.6.0-1.x86_64.rpm",
-      "size": 79388575,
-      "sha256": "f76d4cfabb2fb5ecae041e06545a19f18ffe44675b494de57fe18a29d7678c0b"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.1/Multibook-0.6.1-1.x86_64.rpm",
+      "name": "Multibook-0.6.1-1.x86_64.rpm",
+      "size": 79506501,
+      "sha256": "3fd1e4c9bf050b3008054d661b9513c36e61708eacfa01d2a03342dc548b08ee"
     }
   }
 }
