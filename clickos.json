@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.7.1",
-  "date": "2026-10-26",
-  "notes": "# ClickOS 4.7.1 — Météo sans texte répété\n\n## Corrigé\n\n- **Blocs de plusieurs cases : texte répété et superposé.** Un bloc est\n  dessiné case par case, chaque case recevant tout le bloc décalé. Le texte\n  qui dépassait le bord d'une case repartait à la ligne suivante (retour à la\n  ligne automatique de la bibliothèque graphique, jamais désactivé) : la\n  température, la condition et le nom se répétaient, se chevauchaient et\n  « coulaient » vers le bas. Le retour à la ligne est coupé ; ce qui dépasse\n  d'une case est dessiné par sa voisine.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.7.1",
+  "version": "4.7.2",
+  "date": "2026-11-03",
+  "notes": "# ClickOS (firmware ESP32) 4.7.2 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.7.2",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.7.1/clickos-v4.7.1.zip",
-      "name": "clickos-v4.7.1.zip",
-      "size": 489750,
-      "sha256": "2be476a99891a62ae95447d2ff29da2b3229c67098bf980139cac6f5ca021a15"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.7.2/clickos-v4.7.2.zip",
+      "name": "clickos-v4.7.2.zip",
+      "size": 489746,
+      "sha256": "5385ea72013917a216bf26e5dfee96600d1f3c205bcbe7b5827da34c45a673d1"
     }
   },
-  "minAppVersion": "1.16.0"
+  "minAppVersion": "1.17.1"
 }
