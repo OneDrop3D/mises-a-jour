@@ -2,40 +2,40 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.17.0",
-  "date": "2026-11-02",
-  "notes": "# ClickDeck 1.17.0 — icônes Papicons\n\n### Interface\n\n- **Nouvelles icônes Papicons** (jeu de l'association PapillonApp, licence MIT) pour les rubriques, les tuiles d'actions et les touches. Les touches déjà enregistrées gardent leur ancienne icône ; seules les nouvelles prennent les icônes Papicons.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.17.0",
+  "version": "1.17.1",
+  "date": "2026-11-03",
+  "notes": "# Application ClickDeck 1.17.1 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.17.1",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.0/Clickdeck-1.17.0-arm64.dmg",
-      "name": "Clickdeck-1.17.0-arm64.dmg",
-      "size": 98645720,
-      "sha256": "3e2ad097e50899b14b79dc245d2a8a2aae318fa47abbad6f0789b696bd91954f"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.1/Clickdeck-1.17.1-arm64.dmg",
+      "name": "Clickdeck-1.17.1-arm64.dmg",
+      "size": 99220531,
+      "sha256": "0a3b2cf7201069d547a6f139ab98edbbb5584e087fc475a535acdc7681e5d369"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.0/Clickdeck-1.17.0.AppImage",
-      "name": "Clickdeck-1.17.0.AppImage",
-      "size": 108490908,
-      "sha256": "48fafccd1e51454996943fefac148dfefe212a90edfeb9236fe5fafec27c275b"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.1/Clickdeck-1.17.1.AppImage",
+      "name": "Clickdeck-1.17.1.AppImage",
+      "size": 108986825,
+      "sha256": "5069a761e7dd106cc3fd2857e6b965cba4f7415a00e8e67375060ad069936f7e"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.0/clickdeck-desktop_1.17.0_amd64.deb",
-      "name": "clickdeck-desktop_1.17.0_amd64.deb",
-      "size": 75676368,
-      "sha256": "ec104c55a42581173a0ac555d1144ded24492dd556bc073715e0ed735341f8f0"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.1/clickdeck-desktop_1.17.1_amd64.deb",
+      "name": "clickdeck-desktop_1.17.1_amd64.deb",
+      "size": 76035772,
+      "sha256": "b9139b8df22e6b7077e2b684a689bff76c56a108af12508cd58d24f305173e5c"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.0/clickdeck-desktop-1.17.0.x86_64.rpm",
-      "name": "clickdeck-desktop-1.17.0.x86_64.rpm",
-      "size": 75506253,
-      "sha256": "30310e13cb2e2ba1bcf464422f22e070544696dcd4de578cc8dfa1ee1e2876b8"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.1/clickdeck-desktop-1.17.1.x86_64.rpm",
+      "name": "clickdeck-desktop-1.17.1.x86_64.rpm",
+      "size": 75888073,
+      "sha256": "0cda52d0ff93ff512795a46d9163bcf5921ff08ed9338b46dd59adb391fcdb2d"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.0/Clickdeck-Setup-1.17.0.exe",
-      "name": "Clickdeck-Setup-1.17.0.exe",
-      "size": 88914936,
-      "sha256": "d567e04dfaa2da36d80ee54f1ae7b7eb473790c01251a12cdaaebffc4bc2d03c"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.1/Clickdeck-Setup-1.17.1.exe",
+      "name": "Clickdeck-Setup-1.17.1.exe",
+      "size": 89863762,
+      "sha256": "b4a622f01b407295d2c897f1d8c3e31d9326d5ff738152a1082bde19065d57eb"
     }
   }
 }
