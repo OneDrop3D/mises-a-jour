@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "multibook",
   "channel": "stable",
-  "version": "0.6.1",
-  "date": "2026-11-02",
-  "notes": "# Multibook 0.6.1 — nouveautés\n\n- **Mise à jour automatique** : « Redémarrer et installer » enregistre vos cahiers, ferme Multibook, installe la nouvelle version et le rouvre (retour à l'ancienne version si l'installation échoue). Elle prend effet à partir de la prochaine mise à jour : la 0.6.0 doit d'abord être remplacée à la main, une fois.\n- **Ruban** : cahiers et bureautique alignés au pixel (mêmes boutons, mêmes places, mêmes libellés) ; le sélecteur de police affiche la police réellement utilisée ; fonctions complétées (classeur, présentation, image).\n- **Longs documents** : bien plus fluides (correcteur par tranches, pages affichées à la demande, passage Cahiers ↔ Bureautique allégé). Le trait jaune des sauts de page est supprimé.\n- **Éditeur d'images** : déplacement, zoom et réglages beaucoup plus fluides sur les grandes photos.\n- **Lecteur vidéo** : pause immédiate ; pistes audio, sous-titres (langue, décalage, rythme), égaliseur, liste de lecture, chapitres, signets, menu contextuel et bien d'autres fonctions.\n- **École (bêta)** : connexion par l'ENT simplifiée (liste d'ENT, navigateur reconnu par Pronote), champ de ville corrigé.\n- **Icônes** : toutes redessinées dans le style Papicons.\n- **Barre du haut** : le mode évaluation est de nouveau visible ; la roue des paramètres n'est plus répétée dans les cahiers.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.1",
+  "version": "0.6.2",
+  "date": "2026-11-04",
+  "notes": "# Multibook 0.6.2 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.2",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.1/Multibook-0.6.1-mac-arm64.dmg",
-      "name": "Multibook-0.6.1-mac-arm64.dmg",
-      "size": 78666405,
-      "sha256": "b5b73c6f84d36e3585699100ede0b39f99f2884ea15fc3ea925caba0a3afc8bd"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.2/Multibook-0.6.2-mac-arm64.dmg",
+      "name": "Multibook-0.6.2-mac-arm64.dmg",
+      "size": 78774103,
+      "sha256": "776963ddf47d38a1bdefe39773804de827ab7192643a1a679e46b897c10dacda"
     },
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.1/Multibook-0.6.1-windows-x64-installateur.exe",
