@@ -2,10 +2,10 @@
   "schema": 1,
   "product": "multibook",
   "channel": "stable",
-  "version": "0.6.13",
+  "version": "0.6.14",
   "date": "2026-11-04",
-  "notes": "# Multibook 0.6.13 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.13",
+  "notes": "# Multibook 0.6.14 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.14",
   "files": {
     "macos-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.13/Multibook-0.6.13-mac-arm64.dmg",
@@ -14,10 +14,10 @@
       "sha256": "aec39526e6839bdfba6ec4af0c8150c824e89917057a76f4ebf3e1bf75b7bc00"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.12/Multibook-0.6.12-windows-x64-installateur.exe",
-      "name": "Multibook-0.6.12-windows-x64-installateur.exe",
-      "size": 74171696,
-      "sha256": "56632addeb39013bcb59852a89af3d5e4d08aa715c654eb7872170468bbb6939"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.14/Multibook-0.6.14-windows-x64-installateur.exe",
+      "name": "Multibook-0.6.14-windows-x64-installateur.exe",
+      "size": 74160244,
+      "sha256": "945d7e6a82f8a1d61f13f3dd4e1206a50b407116d6b76f911a95f05b881a5d90"
     },
     "android-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.12/Multibook-0.6.12-android.apk",
