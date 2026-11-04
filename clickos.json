@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.1",
+  "version": "4.8.2",
   "date": "2026-11-04",
-  "notes": "# ClickOS (firmware ESP32) 4.8.1 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.1",
+  "notes": "# ClickOS (firmware ESP32) 4.8.2 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.2",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.1/clickos-v4.8.1.zip",
-      "name": "clickos-v4.8.1.zip",
-      "size": 501435,
-      "sha256": "6ef508551be5dd3db7809a7f3bc69a1f16ac3717a06153ec2cec845a0c2381a7"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.2/clickos-v4.8.2.zip",
+      "name": "clickos-v4.8.2.zip",
+      "size": 511227,
+      "sha256": "3011dd2f46b35a0ab35ab462312bf8fff6fcc50c398ade8415b83572052c6bcd"
     }
   },
-  "minAppVersion": "1.18.0"
+  "minAppVersion": "1.18.1"
 }
