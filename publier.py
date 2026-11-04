@@ -136,7 +136,9 @@ def main():
         f.write(texte)
     subprocess.run(["git", "-C", ICI, "add", f"{a.produit}.json"], check=True)
     systemes = ", ".join(fichiers)
-    subprocess.run(["git", "-C", ICI, "commit", "-m", f"{a.produit} {version} ({systemes})"], check=True)
+    # manifeste identique (version déjà publiée) : rien à valider, mais on pousse quand même
+    if subprocess.run(["git", "-C", ICI, "diff", "--cached", "--quiet"]).returncode != 0:
+        subprocess.run(["git", "-C", ICI, "commit", "-m", f"{a.produit} {version} ({systemes})"], check=True)
     subprocess.run(["git", "-C", ICI, "push"], check=True)
     print(f"{a.produit} {version} publié.")
 
