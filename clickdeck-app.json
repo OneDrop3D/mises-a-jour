@@ -14,22 +14,22 @@
       "sha256": "334ddca09d485736e3eb8983d71a9c27a816de39e1f0dc70af9416354ea5724c"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.4/Clickdeck-1.17.4.AppImage",
-      "name": "Clickdeck-1.17.4.AppImage",
-      "size": 109991436,
-      "sha256": "489b5baf6f5c18edd600bf029b7cd76933a7511b7419d93ac757d0296cb24e18"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.0/Clickdeck-1.18.0.AppImage",
+      "name": "Clickdeck-1.18.0.AppImage",
+      "size": 110500012,
+      "sha256": "aba11c9e0f275247ad06d6b132a72e46a78b92cab3c787382d95780e5bf7f63e"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.4/clickdeck-desktop_1.17.4_amd64.deb",
-      "name": "clickdeck-desktop_1.17.4_amd64.deb",
-      "size": 76854964,
-      "sha256": "6f92368e8586bf9e0e662d9ebc9f36a69d15d8d97792a909243c9ffe8d7ac990"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.0/clickdeck-desktop_1.18.0_amd64.deb",
+      "name": "clickdeck-desktop_1.18.0_amd64.deb",
+      "size": 77261466,
+      "sha256": "dd3fc76be7bdfd70e34ae8742ac0e53f9edf5825c0d2177045ac4e4685101718"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.4/clickdeck-desktop-1.17.4.x86_64.rpm",
-      "name": "clickdeck-desktop-1.17.4.x86_64.rpm",
-      "size": 76669001,
-      "sha256": "1a1c587e859da8cc26c4010bcb09010888c6dc97a35750a66bbf21bb693e611b"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.0/clickdeck-desktop-1.18.0.x86_64.rpm",
+      "name": "clickdeck-desktop-1.18.0.x86_64.rpm",
+      "size": 77082281,
+      "sha256": "7c70b26ee0f33bfe175a083ea8c3422f0e99779b16db9b523faf7ea89fb4f62a"
     },
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.0/Clickdeck-Setup-1.18.0.exe",
