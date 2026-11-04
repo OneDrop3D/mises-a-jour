@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "multibook",
   "channel": "stable",
-  "version": "0.6.2",
+  "version": "0.6.12",
   "date": "2026-11-04",
-  "notes": "# Multibook 0.6.2 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.2",
+  "notes": "# Multibook 0.6.12 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.12",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.2/Multibook-0.6.2-mac-arm64.dmg",
-      "name": "Multibook-0.6.2-mac-arm64.dmg",
-      "size": 78774103,
-      "sha256": "776963ddf47d38a1bdefe39773804de827ab7192643a1a679e46b897c10dacda"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.12/Multibook-0.6.12-mac-arm64.dmg",
+      "name": "Multibook-0.6.12-mac-arm64.dmg",
+      "size": 78775655,
+      "sha256": "8435a65f64061d6a5af429a81719dd1c9f20ff62126368d60d1363f55130c2e7"
     },
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.2/Multibook-0.6.2-windows-x64-installateur.exe",
