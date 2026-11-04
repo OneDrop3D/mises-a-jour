@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.18.5",
+  "version": "1.18.6",
   "date": "2026-11-04",
-  "notes": "# Application ClickDeck 1.18.5 — nouveautés\n\n- **Bibliothèque en ligne** : plus de 400 applications ont maintenant leur modèle et leur plugin, et les autres sont réunies dans des packs de lancement. Une connexion est nécessaire pour les voir ; les modèles de maths restent dans l'application.\n- **Modèles Essentiel et Complet** : chaque application propose une page pour le quotidien, ou toutes ses fonctions rangées par thème.\n- **Touches d'application** : une touche envoie le bon raccourci sur Windows, Mac et Linux, y compris une lettre seule ou le pavé numérique, et fonctionne sur un clavier AZERTY sous Mac.\n- **Bibliothèque** : interface revue pour les petits écrans, avec des fiches compactes, un seul filtre par famille et le bouton « Utiliser ce modèle » toujours visible.\n- **Changement de modèle automatique** : le ClickDeck affiche le bon modèle selon l'application ou le site au premier plan, puis revient au modèle d'avant. Clic droit sur un modèle, puis « Applications et sites », pour choisir les vôtres. Les navigateurs Chromium, Firefox, Zen, Safari et leurs dérivés sont pris en charge.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.18.5",
+  "notes": "# Application ClickDeck 1.18.6 — nouveautés\n\n- Choisir une autre variante ou une nouvelle version dans la bibliothèque l'installe vraiment : avant, « Utiliser ce modèle » rouvrait l'ancienne copie.\n- Paramètres : interrupteur pour couper l'ouverture automatique des modèles. Bouton ⚡ à côté du modèle pour régler ses applications, ses sites, s'il s'ouvre tout seul et ce qui se passe quand on quitte l'application.\n- Une touche peut activer un outil et ouvrir sa page en même temps.\n- Envoi plus rapide quand on revient sur un modèle : le boîtier garde les icônes récentes.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.18.6",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.5/Clickdeck-1.18.5-arm64.dmg",
-      "name": "Clickdeck-1.18.5-arm64.dmg",
-      "size": 102324198,
-      "sha256": "8fac417dfee41b1cbb3339d66d3c9316e7778ab8a045b1a3b831f79ff532dff2"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.6/Clickdeck-1.18.6-arm64.dmg",
+      "name": "Clickdeck-1.18.6-arm64.dmg",
+      "size": 102894960,
+      "sha256": "18b8f81ef9284c713d34ffc48e0763830f339e8216921e234be1bd6bdc101833"
     },
     "linux-x64-appimage": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.5/Clickdeck-1.18.5.AppImage",
