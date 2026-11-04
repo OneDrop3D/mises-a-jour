@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.18.2",
+  "version": "1.18.5",
   "date": "2026-11-04",
-  "notes": "# Application ClickDeck 1.18.2 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.18.2",
+  "notes": "# Application ClickDeck 1.18.5 — nouveautés\n\n- **Bibliothèque en ligne** : plus de 400 applications ont maintenant leur modèle et leur plugin, et les autres sont réunies dans des packs de lancement. Une connexion est nécessaire pour les voir ; les modèles de maths restent dans l'application.\n- **Modèles Essentiel et Complet** : chaque application propose une page pour le quotidien, ou toutes ses fonctions rangées par thème.\n- **Touches d'application** : une touche envoie le bon raccourci sur Windows, Mac et Linux, y compris une lettre seule ou le pavé numérique, et fonctionne sur un clavier AZERTY sous Mac.\n- **Bibliothèque** : interface revue pour les petits écrans, avec des fiches compactes, un seul filtre par famille et le bouton « Utiliser ce modèle » toujours visible.\n- **Changement de modèle automatique** : le ClickDeck affiche le bon modèle selon l'application ou le site au premier plan, puis revient au modèle d'avant. Clic droit sur un modèle, puis « Applications et sites », pour choisir les vôtres. Les navigateurs Chromium, Firefox, Zen, Safari et leurs dérivés sont pris en charge.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.18.5",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.2/Clickdeck-1.18.2-arm64.dmg",
-      "name": "Clickdeck-1.18.2-arm64.dmg",
-      "size": 101769645,
-      "sha256": "df1a0917598fd39f31d7c37abf2065dce39ccd0cd3385d38723886ded7aa4dd7"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.5/Clickdeck-1.18.5-arm64.dmg",
+      "name": "Clickdeck-1.18.5-arm64.dmg",
+      "size": 102324198,
+      "sha256": "8fac417dfee41b1cbb3339d66d3c9316e7778ab8a045b1a3b831f79ff532dff2"
     },
     "linux-x64-appimage": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.2/Clickdeck-1.18.2.AppImage",
