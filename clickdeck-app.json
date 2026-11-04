@@ -2,10 +2,10 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.17.1",
-  "date": "2026-11-03",
-  "notes": "# Application ClickDeck 1.17.1 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.17.1",
+  "version": "1.17.2",
+  "date": "2026-11-04",
+  "notes": "# Application ClickDeck 1.17.2 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.17.2",
   "files": {
     "macos-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.1/Clickdeck-1.17.1-arm64.dmg",
@@ -32,10 +32,10 @@
       "sha256": "0cda52d0ff93ff512795a46d9163bcf5921ff08ed9338b46dd59adb391fcdb2d"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.1/Clickdeck-Setup-1.17.1.exe",
-      "name": "Clickdeck-Setup-1.17.1.exe",
-      "size": 89863762,
-      "sha256": "b4a622f01b407295d2c897f1d8c3e31d9326d5ff738152a1082bde19065d57eb"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.2/Clickdeck-Setup-1.17.2.exe",
+      "name": "Clickdeck-Setup-1.17.2.exe",
+      "size": 90826334,
+      "sha256": "68c320267db2a08b0d5014a40b4921af3cd8653c5c067c466088dc2b7df7fcf2"
     }
   }
 }
