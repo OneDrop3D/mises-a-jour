@@ -32,10 +32,10 @@
       "sha256": "06eb4f3f67e6ac6d3ce83cd608e12f617cb27b294dd40ce80e1289e624cb9ddf"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.1/Clickdeck-Setup-1.18.1.exe",
-      "name": "Clickdeck-Setup-1.18.1.exe",
-      "size": 93752958,
-      "sha256": "b29cea7cebd088eb922a3bc6ef5f8dcd5950b421076e48ecce6c9c3e7888fb28"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.2/Clickdeck-Setup-1.18.2.exe",
+      "name": "Clickdeck-Setup-1.18.2.exe",
+      "size": 94723485,
+      "sha256": "a7296d020ebf35dd71623e760ec7f276e0222d68b64dee9169164b7a82ccedaa"
     }
   }
 }
