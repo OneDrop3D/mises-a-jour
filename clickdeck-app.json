@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.18.6",
+  "version": "1.18.7",
   "date": "2026-11-04",
-  "notes": "# Application ClickDeck 1.18.6 — nouveautés\n\n- Choisir une autre variante ou une nouvelle version dans la bibliothèque l'installe vraiment : avant, « Utiliser ce modèle » rouvrait l'ancienne copie.\n- Paramètres : interrupteur pour couper l'ouverture automatique des modèles. Bouton ⚡ à côté du modèle pour régler ses applications, ses sites, s'il s'ouvre tout seul et ce qui se passe quand on quitte l'application.\n- Une touche peut activer un outil et ouvrir sa page en même temps.\n- Envoi plus rapide quand on revient sur un modèle : le boîtier garde les icônes récentes.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.18.6",
+  "notes": "# Application ClickDeck 1.18.7 — nouveautés\n\n- Curseur sur plusieurs cases : glisser le doigt règle par exemple la taille du pinceau d'un slicer.\n- L'ouverture automatique reconnaît une application dont le nom porte sa version, comme PrusaSlicer-3.0.0-alpha12.\n- L'aperçu d'un modèle montre toutes ses pages.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.18.7",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.6/Clickdeck-1.18.6-arm64.dmg",
-      "name": "Clickdeck-1.18.6-arm64.dmg",
-      "size": 102894960,
-      "sha256": "18b8f81ef9284c713d34ffc48e0763830f339e8216921e234be1bd6bdc101833"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.7/Clickdeck-1.18.7-arm64.dmg",
+      "name": "Clickdeck-1.18.7-arm64.dmg",
+      "size": 103392931,
+      "sha256": "815ac4a8179a2847a6d8664d3539858f2bd96221c302361fb97ae832de0d7621"
     },
     "linux-x64-appimage": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.5/Clickdeck-1.18.5.AppImage",
