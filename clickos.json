@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.4",
+  "version": "4.8.5",
   "date": "2026-11-04",
-  "notes": "# ClickOS (firmware ESP32) 4.8.4 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.4",
+  "notes": "# ClickOS (firmware ESP32) 4.8.5 — nouveautés\n\n- Une touche de page peut aussi demander à l'ordinateur d'envoyer un raccourci : elle active l'outil et ouvre sa page.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.5",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.4/clickos-v4.8.4.zip",
-      "name": "clickos-v4.8.4.zip",
-      "size": 511608,
-      "sha256": "6918162bcf1b200ec3e83b196563ec1891a6ccf5a0d6fa11f494ea0f323d3900"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.5/clickos-v4.8.5.zip",
+      "name": "clickos-v4.8.5.zip",
+      "size": 511689,
+      "sha256": "f297ea36823571074fc32d125007b0b96c0c44d8bddf9c1fcc5fd5d0e1b80de7"
     }
   },
-  "minAppVersion": "1.18.5"
+  "minAppVersion": "1.18.6"
 }
