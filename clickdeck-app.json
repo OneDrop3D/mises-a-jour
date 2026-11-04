@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.17.2",
+  "version": "1.17.3",
   "date": "2026-11-04",
-  "notes": "# Application ClickDeck 1.17.2 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.17.2",
+  "notes": "# Application ClickDeck 1.17.3 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.17.3",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.2/Clickdeck-1.17.2-arm64.dmg",
-      "name": "Clickdeck-1.17.2-arm64.dmg",
-      "size": 99671736,
-      "sha256": "89bab3bf53656547feeaaa1ef7754c792545e1d68b0b9ae584739ab5dfef5167"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.3/Clickdeck-1.17.3-arm64.dmg",
+      "name": "Clickdeck-1.17.3-arm64.dmg",
+      "size": 99670740,
+      "sha256": "1491a6575a3d49de67472c0151e6dab03123d5c774a1e2d88847abc483f67801"
     },
     "linux-x64-appimage": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.2/Clickdeck-1.17.2.AppImage",
