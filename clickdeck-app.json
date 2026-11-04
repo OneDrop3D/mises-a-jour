@@ -8,10 +8,10 @@
   "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.17.2",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.1/Clickdeck-1.17.1-arm64.dmg",
-      "name": "Clickdeck-1.17.1-arm64.dmg",
-      "size": 99220531,
-      "sha256": "0a3b2cf7201069d547a6f139ab98edbbb5584e087fc475a535acdc7681e5d369"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.2/Clickdeck-1.17.2-arm64.dmg",
+      "name": "Clickdeck-1.17.2-arm64.dmg",
+      "size": 99671736,
+      "sha256": "89bab3bf53656547feeaaa1ef7754c792545e1d68b0b9ae584739ab5dfef5167"
     },
     "linux-x64-appimage": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.17.2/Clickdeck-1.17.2.AppImage",
