@@ -1,5 +1,8 @@
 {
+  "achat": "mailto:onedrop3d@gmail.com?subject=Achat%20de%20Multibook",
+  "libre": true,
   "schema": 1,
-  "serveurs": ["https://multibook-licences.licences-relais-cloudflare.workers.dev/v1"],
-  "achat": "mailto:onedrop3d@gmail.com?subject=Achat%20de%20Multibook"
+  "serveurs": [
+    "https://multibook-licences.licences-relais-cloudflare.workers.dev/v1"
+  ]
 }
