@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "clickdeck-app",
   "channel": "stable",
-  "version": "1.18.7",
-  "date": "2026-11-04",
-  "notes": "# Application ClickDeck 1.18.7 — nouveautés\n\n- Curseur sur plusieurs cases : glisser le doigt règle par exemple la taille du pinceau d'un slicer.\n- L'ouverture automatique reconnaît une application dont le nom porte sa version, comme PrusaSlicer-3.0.0-alpha12.\n- L'aperçu d'un modèle montre toutes ses pages.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.18.7",
+  "version": "1.18.8",
+  "date": "2026-11-06",
+  "notes": "# Application ClickDeck 1.18.8 — nouveautés\n\n- Le réglage des applications et sites d'un modèle se trouve derrière le bouton de réglage, à côté de son nom.\n- Envoi plus rapide : les images ne partent plus en double dans la configuration, et un modèle très chargé ne fait plus échouer l'envoi.\n- L'ouverture automatique envoie le modèle au boîtier même s'il était déjà ouvert dans l'application sans y avoir été envoyé.\n- **Nouvelle apparence** : l'application passe en sombre, uniquement, avec les couleurs et la police du site. L'aperçu de la grille montre exactement l'écran du boîtier.\n- **Touches** : six couleurs, choisies d'après la fonction, et une option « Touche pleine » pour la touche principale d'une page. Le nom s'affiche sous chaque pictogramme.\n- **Plus de flèches de page** : on change de page en glissant le doigt sur le ClickDeck. Les flèches disparaissent aussi des modèles déjà installés, et chaque page retrouve ses 24 touches.\n- **Prendre une action** : le logo décolle du volet de droite, grandit jusqu'au curseur, puis se pose sur la touche. Lâché ailleurs, il revient aussitôt.\n- **Paramètres › Écran** : réglez les tons sombres et la dominante de couleur en direct, en regardant le boîtier.\n- **Graphiques** : une nouvelle forme « Tracé » et une touche Heure.\n- **Modèle de départ** refait : les fonctions courantes sur deux pages, prêtes à l'emploi.\n- Le thème du boîtier devient « OneDrop3D ». Les autres thèmes restent disponibles dans les réglages.\n- **Changement de page** : la page suit la souris et le pavé tactile au pixel près, avec ses voisines déjà en place, puis se pose d'un seul mouvement. Elle résiste au bout de la dernière page, et on peut la reprendre en route.\n- **Menus refaits** : plus aucun emoji, toutes les icônes sont tracées comme sur le ClickDeck, chacune sur une petite touche teintée. Le volet de droite présente ses actions en mini-touches, et « Envoyer au ClickDeck » est la seule action pleine.\n- **Icônes plus nettes sur le boîtier** : leurs bords gardent leur lissage. Renvoyez votre configuration pour en profiter.\n- **Clavier AZERTY sur Mac** : « Tout sélectionner », « Annuler » et « Fermer l'onglet » envoient enfin la bonne touche. « Tout sélectionner » pouvait fermer l'application au premier plan.\n- **Modèles de la bibliothèque** : une touche garde le raccourci de son application même si son nom ressemble à un raccourci courant, et les touches de lancement ouvrent bien leur application.\n- **Maths** : chaque symbole tape son caractère, la touche Espace écrit une espace, et Suppression et Entrée fonctionnent pendant la saisie d'une fraction.\n- **Touches** : « Rétablir » envoie la bonne combinaison sur Mac, « Aller à la page » garde sa cible, F13 à F20 et Échap fonctionnent, la touche Windows aussi, et un raccourci saisi à la main n'est plus remplacé.\n- **Une action qui échoue le dit** : application introuvable, touche inconnue ou touche sans combinaison sur ce système. Une touche d'application absente de votre système apparaît estompée.\n- **À la pose**, les tuiles Raccourci, Texte et Fichier ouvrent leur réglage. Le double-clic d'essai sur une tuile fait exactement ce que ferait un appui sur le boîtier.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickdeck-app-v1.18.8",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.7/Clickdeck-1.18.7-arm64.dmg",
-      "name": "Clickdeck-1.18.7-arm64.dmg",
-      "size": 103392931,
-      "sha256": "815ac4a8179a2847a6d8664d3539858f2bd96221c302361fb97ae832de0d7621"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.8/Clickdeck-1.18.8-arm64.dmg",
+      "name": "Clickdeck-1.18.8-arm64.dmg",
+      "size": 104075513,
+      "sha256": "589f790564ab5ce7a72c3a24bf2cae87608dd3303fd02248bc5cede3c7801c91"
     },
     "linux-x64-appimage": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.5/Clickdeck-1.18.5.AppImage",
