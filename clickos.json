@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.6",
-  "date": "2026-11-04",
-  "notes": "# ClickOS (firmware ESP32) 4.8.6 — nouveautés\n\n- Nouveau curseur sur plusieurs cases : le doigt y glisse sans tourner la page.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.6",
+  "version": "4.8.10",
+  "date": "2026-11-06",
+  "notes": "# ClickOS (firmware ESP32) 4.8.10 — nouveautés\n\n- Une configuration trop grosse est signalée tout de suite à l'application, au lieu de la laisser attendre.\n- **Nouveau dessin de l'écran** : les touches reprennent celui du site, avec une face sombre, un pictogramme à la couleur de la fonction et le nom dessous.\n- **Tout au doigt** : on change de page en glissant, il n'y a plus de touches pour cela. Sur une palette aussi, la touche « Suite » a disparu.\n- **Animations** : au démarrage, les touches arrivent en diagonale. À l'appui, la touche rétrécit et prend un contour à sa couleur, qui s'efface doucement.\n- **Bulle de message** : après un appui (« Copié », « Capture copiée ») et à chaque page (« Page 2 / 3 »). Elle prévient aussi si l'application n'est pas connectée.\n- **Réglage de l'écran** : tons sombres et dominante de couleur se corrigent depuis l'application, et le boîtier garde le réglage.\n- **Nouvelles touches** : une heure en grand et une courbe à la couleur de la touche pour les mesures.\n- Une case libre montre maintenant un « + » : une page vide ne passe plus pour un écran éteint.\n- **Dessin lissé partout** : les graphiques, la météo, les cases libres, la bulle et le curseur n'ont plus de bords en escalier. Les cadrans gardent un dégradé continu et les courbes un trait régulier.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.10",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.6/clickos-v4.8.6.zip",
-      "name": "clickos-v4.8.6.zip",
-      "size": 513439,
-      "sha256": "bbffe3315a3c3eaa1d69f1dd1dc97e2db3d6e938ce81e9f2f1e32a648138fd80"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.10/clickos-v4.8.10.zip",
+      "name": "clickos-v4.8.10.zip",
+      "size": 546400,
+      "sha256": "6e743059732a694bf0d616a153378b557424d514a078f54d6ab5a3203a335af2"
     }
   },
-  "minAppVersion": "1.18.7"
+  "minAppVersion": "1.18.8"
 }
