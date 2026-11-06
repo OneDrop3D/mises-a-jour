@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.11",
+  "version": "4.8.12",
   "date": "2026-11-06",
-  "notes": "# ClickOS (firmware ESP32) 4.8.11 — nouveautés\n\n- **Changement de page plus vif** : la bulle n'a plus à partir avant la page suivante. Les pages voisines se préparent trois à quatre fois plus vite, et un doigt reposé pendant l'arrivée enchaîne directement sur la page suivante.\n- **Réglage de l'écran** : l'image change d'un coup, sans se redessiner à vue, et les curseurs peuvent aller aussi vite qu'on veut.\n- **Graphiques refaits** : toutes les formes ont le nom en haut à gauche, la valeur en haut à droite et le tracé à la teinte de la touche.\n- **Météo refaite** : quatre présentations qui ont chacune leurs informations (température, ciel, détails, prévisions) et des pictogrammes au trait, comme les autres touches.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.11",
+  "notes": "# ClickOS (firmware ESP32) 4.8.12 — nouveautés\n\n- **Envoi d'un modèle** : le tri des icônes est plus rapide, un modèle dont les icônes sont déjà sur le boîtier arrive en 0,8 s au lieu de 1,4 s.\n- **Touches de texte** : « cos », « f(x) » ou « km/h » s'affichent plus grand.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.12",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.11/clickos-v4.8.11.zip",
-      "name": "clickos-v4.8.11.zip",
-      "size": 552581,
-      "sha256": "526e57c366e0851abe8e160e5491868495927bc523c2db4501b06625955b59a9"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.12/clickos-v4.8.12.zip",
+      "name": "clickos-v4.8.12.zip",
+      "size": 552784,
+      "sha256": "613ed330e0f4d28af7b3ab52d0ab01ea7a085b728c84e0cb6d3642e49cb40cc9"
     }
   },
-  "minAppVersion": "1.18.9"
+  "minAppVersion": "1.18.10"
 }
