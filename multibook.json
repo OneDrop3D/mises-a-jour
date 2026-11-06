@@ -20,10 +20,10 @@
       "sha256": "7328717b5ff55c5e144cb388753dcd5378a375b1de3663d69de15d5b1d7e731f"
     },
     "android-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.16/Multibook-0.6.16-android.apk",
-      "name": "Multibook-0.6.16-android.apk",
-      "size": 82366096,
-      "sha256": "bffcdb5fe49e20bc952b3425df4c80e296261a121bebaee9718e494179d79253"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.20/Multibook-0.6.20-android.apk",
+      "name": "Multibook-0.6.20-android.apk",
+      "size": 82387676,
+      "sha256": "057a678cf1aa7c9bd42925b3cb5a6394c44476d2cbc2e77286d9c08fea97d305"
     },
     "linux-x64-appimage": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.16/Multibook_0.6.16_amd64.AppImage",
