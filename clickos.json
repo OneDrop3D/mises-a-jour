@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.16",
+  "version": "4.8.17",
   "date": "2026-11-07",
-  "notes": "# ClickOS (firmware ESP32) 4.8.16 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.16",
+  "notes": "# ClickOS (firmware ESP32) 4.8.17 — nouveautés\n\n- **Bulle sur une touche** : plus de bandes sombres sur la bulle quand la touche appuyée se trouve dessous.\n- **Fin d'un envoi** : la grille se prépare derrière l'écran d'enregistrement et les touches arrivent sans passage au noir ni saut d'image.\n- **Télémétrie** : le boîtier donne la charge de ses deux cœurs, sa mémoire, son stockage, sa température et le rythme de l'écran.\n- **Boîtier neuf ou réinitialisé** : il affiche les touches du Modèle 1 de l'application, sur deux pages, au lieu des 12 anciennes touches de démonstration. Les images arrivent avec l'application.\n- **Curseurs** : quatre formes (barre, verticale, arc, jauge) et un interrupteur. Ceux qui suivent un réglage de l'ordinateur montrent son niveau réel. Le doigt est suivi aussi sur les modèles d'une seule page.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.17",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.16/clickos-v4.8.16.zip",
-      "name": "clickos-v4.8.16.zip",
-      "size": 608155,
-      "sha256": "f966e54088867ca9faf7c11f7e79db289045de00d81785507442c297ceeec099"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.17/clickos-v4.8.17.zip",
+      "name": "clickos-v4.8.17.zip",
+      "size": 617770,
+      "sha256": "6b0b03115fcfd1d9f403a66929671b791ae17e91c57f2e949b8d18367db1f67f"
     }
   },
-  "minAppVersion": "1.18.15"
+  "minAppVersion": "1.18.16"
 }
