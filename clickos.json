@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.14",
+  "version": "4.8.15",
   "date": "2026-11-07",
-  "notes": "# ClickOS (firmware ESP32) 4.8.14 — nouveautés\n\n- **Tourner les pages** : six pages sont maintenant prêtes à l'avance au lieu de trois, et plus rien ne fait attendre le doigt, même sur un modèle avec des graphiques ou des curseurs.\n- **Artefacts en changeant de page** : le boîtier ne relit plus sa mémoire pendant que l'écran balaie, et les curseurs ne saturent plus le bus de l'écran.\n- **Dictée** : la touche Dictée vocale montre la voix, avec sept barres qui suivent le volume et les fréquences. L'ancienne animation du pourtour, qui coupait le bas des touches, est retirée.\n- **Envoi d'un modèle** : les octets perdus pendant un envoi sont corrigés, c'était la cause des blocages en plein chargement. Les icônes arrivent quatre à cinq fois plus vite.\n- **Angle de vue** : nouveaux réglages de l'image, avec une mire sur l'écran pour les ajuster.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.14",
+  "notes": "# ClickOS (firmware ESP32) 4.8.15 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.15",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.14/clickos-v4.8.14.zip",
-      "name": "clickos-v4.8.14.zip",
-      "size": 608155,
-      "sha256": "be90830e1ff10f2ae42964707a6a89d0718bd6cce7b884063636c13e910ed1e5"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.15/clickos-v4.8.15.zip",
+      "name": "clickos-v4.8.15.zip",
+      "size": 608152,
+      "sha256": "3212f3ac5dd7147a1fd8c1dc00ef268f619345034661ae336e45c68c9e530094"
     }
   },
-  "minAppVersion": "1.18.13"
+  "minAppVersion": "1.18.14"
 }
