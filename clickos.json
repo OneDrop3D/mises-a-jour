@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.12",
-  "date": "2026-11-06",
-  "notes": "# ClickOS (firmware ESP32) 4.8.12 — nouveautés\n\n- **Envoi d'un modèle** : le tri des icônes est plus rapide, un modèle dont les icônes sont déjà sur le boîtier arrive en 0,8 s au lieu de 1,4 s.\n- **Touches de texte** : « cos », « f(x) » ou « km/h » s'affichent plus grand.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.12",
+  "version": "4.8.13",
+  "date": "2026-11-07",
+  "notes": "# ClickOS (firmware ESP32) 4.8.13 — nouveautés\n\n- **Fractions** : pendant la saisie, la touche ne montre plus que la fraction, sans l'icône dessous, et les chiffres s'affichent d'un coup.\n- **Démarrage** : le logo OneDrop3D reste propre. Le boîtier n'écrit et ne lit plus rien en mémoire pendant qu'il s'affiche, et il reste visible au moins 1,2 s.\n- **Chargement d'un modèle** : le nom s'affiche en grand, puis les icônes arrivent une à une, au lieu d'un écran noir.\n- **Modèles gardés dans le boîtier** : un modèle déjà envoyé se rouvre en une demi-seconde, sans rien renvoyer. Les icônes prennent plusieurs fois moins de place, et un envoi est bien plus rapide.\n- **Appuis** : un appui où le doigt glisse un peu n'est plus perdu, et les appuis enchaînés vite passent tous. C'était surtout sensible sur les modèles à plusieurs pages, comme PrusaSlicer.\n- **Changement de page** : l'écran ne clignote plus une seconde après avoir tourné une page.\n- **Contour d'appui** : il prend la couleur de l'icône d'application.\n- **Dictée** : le pourtour de l'écran s'anime tant qu'une dictée écoute.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.13",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.12/clickos-v4.8.12.zip",
-      "name": "clickos-v4.8.12.zip",
-      "size": 552784,
-      "sha256": "613ed330e0f4d28af7b3ab52d0ab01ea7a085b728c84e0cb6d3642e49cb40cc9"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.13/clickos-v4.8.13.zip",
+      "name": "clickos-v4.8.13.zip",
+      "size": 602417,
+      "sha256": "50f24344ec749ff01ab1f6b1d7a10219f399284f3f55ab51848b35793bab2637"
     }
   },
-  "minAppVersion": "1.18.10"
+  "minAppVersion": "1.18.12"
 }
