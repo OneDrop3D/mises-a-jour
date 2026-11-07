@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.13",
+  "version": "4.8.14",
   "date": "2026-11-07",
-  "notes": "# ClickOS (firmware ESP32) 4.8.13 — nouveautés\n\n- **Fractions** : pendant la saisie, la touche ne montre plus que la fraction, sans l'icône dessous, et les chiffres s'affichent d'un coup.\n- **Démarrage** : le logo OneDrop3D reste propre. Le boîtier n'écrit et ne lit plus rien en mémoire pendant qu'il s'affiche, et il reste visible au moins 1,2 s.\n- **Chargement d'un modèle** : le nom s'affiche en grand, puis les icônes arrivent une à une, au lieu d'un écran noir.\n- **Modèles gardés dans le boîtier** : un modèle déjà envoyé se rouvre en une demi-seconde, sans rien renvoyer. Les icônes prennent plusieurs fois moins de place, et un envoi est bien plus rapide.\n- **Appuis** : un appui où le doigt glisse un peu n'est plus perdu, et les appuis enchaînés vite passent tous. C'était surtout sensible sur les modèles à plusieurs pages, comme PrusaSlicer.\n- **Changement de page** : l'écran ne clignote plus une seconde après avoir tourné une page.\n- **Contour d'appui** : il prend la couleur de l'icône d'application.\n- **Dictée** : le pourtour de l'écran s'anime tant qu'une dictée écoute.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.13",
+  "notes": "# ClickOS (firmware ESP32) 4.8.14 — nouveautés\n\n- **Tourner les pages** : six pages sont maintenant prêtes à l'avance au lieu de trois, et plus rien ne fait attendre le doigt, même sur un modèle avec des graphiques ou des curseurs.\n- **Artefacts en changeant de page** : le boîtier ne relit plus sa mémoire pendant que l'écran balaie, et les curseurs ne saturent plus le bus de l'écran.\n- **Dictée** : la touche Dictée vocale montre la voix, avec sept barres qui suivent le volume et les fréquences. L'ancienne animation du pourtour, qui coupait le bas des touches, est retirée.\n- **Envoi d'un modèle** : les octets perdus pendant un envoi sont corrigés, c'était la cause des blocages en plein chargement. Les icônes arrivent quatre à cinq fois plus vite.\n- **Angle de vue** : nouveaux réglages de l'image, avec une mire sur l'écran pour les ajuster.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.14",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.13/clickos-v4.8.13.zip",
-      "name": "clickos-v4.8.13.zip",
-      "size": 602417,
-      "sha256": "50f24344ec749ff01ab1f6b1d7a10219f399284f3f55ab51848b35793bab2637"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.14/clickos-v4.8.14.zip",
+      "name": "clickos-v4.8.14.zip",
+      "size": 608155,
+      "sha256": "be90830e1ff10f2ae42964707a6a89d0718bd6cce7b884063636c13e910ed1e5"
     }
   },
-  "minAppVersion": "1.18.12"
+  "minAppVersion": "1.18.13"
 }
