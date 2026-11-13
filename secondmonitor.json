@@ -12,6 +12,18 @@
       "name": "SecondMonitor-0.6.0-linux-x64.tar.gz",
       "size": 87628332,
       "sha256": "1d77a9b0bbc61914eb4b5fff6655b07f027baaa182c35181415681997a66f7a5"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.6.0/SecondMonitor-0.6.0-mac-arm64.dmg",
+      "name": "SecondMonitor-0.6.0-mac-arm64.dmg",
+      "size": 82983738,
+      "sha256": "006dad75359c267a56898182a7d8eb03f768eedc01be5c54f293763ac3f93a99"
+    },
+    "macos-x64": {
+      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.6.0/SecondMonitor-0.6.0-mac-x64.dmg",
+      "name": "SecondMonitor-0.6.0-mac-x64.dmg",
+      "size": 88501707,
+      "sha256": "70c396d9c56db2a2eed053cdccf3cd3a9c31bec23faa67cfadba4668f0c82282"
     }
   }
 }
