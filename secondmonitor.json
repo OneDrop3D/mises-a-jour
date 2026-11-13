@@ -24,6 +24,18 @@
       "name": "SecondMonitor-0.6.0-mac-x64.dmg",
       "size": 88501707,
       "sha256": "70c396d9c56db2a2eed053cdccf3cd3a9c31bec23faa67cfadba4668f0c82282"
+    },
+    "windows-x64": {
+      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.6.0/SecondMonitor-0.6.0-windows-x64-installation.exe",
+      "name": "SecondMonitor-0.6.0-windows-x64-installation.exe",
+      "size": 39933046,
+      "sha256": "d9b0b15a7221b6d2d3655b5c2b591b7e2aff4f6de8269976375a7112dae569be"
+    },
+    "windows-x64-zip": {
+      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.6.0/SecondMonitor-0.6.0-windows-x64.zip",
+      "name": "SecondMonitor-0.6.0-windows-x64.zip",
+      "size": 53364509,
+      "sha256": "9f0e4839c1752f6de72ea7e0b7724cebb2d243a63bf8a0d179f4213f8859781d"
     }
   }
 }
