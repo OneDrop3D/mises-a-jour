@@ -26,16 +26,16 @@
       "sha256": "405f7e810f0e6817dbc726918ca7deb5578809f933fb9e6067e35151484d0a4f"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.6.0/SecondMonitor-0.6.0-windows-x64-installation.exe",
-      "name": "SecondMonitor-0.6.0-windows-x64-installation.exe",
-      "size": 39933046,
-      "sha256": "d9b0b15a7221b6d2d3655b5c2b591b7e2aff4f6de8269976375a7112dae569be"
+      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.7.2/SecondMonitor-0.7.2-windows-x64-installation.exe",
+      "name": "SecondMonitor-0.7.2-windows-x64-installation.exe",
+      "size": 40101052,
+      "sha256": "a1f11aba440d7c5c1f9c342a6d1233dfb6c33aa35c646ca41f076400ab41ad14"
     },
     "windows-x64-zip": {
-      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.6.0/SecondMonitor-0.6.0-windows-x64.zip",
-      "name": "SecondMonitor-0.6.0-windows-x64.zip",
-      "size": 53364509,
-      "sha256": "9f0e4839c1752f6de72ea7e0b7724cebb2d243a63bf8a0d179f4213f8859781d"
+      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.7.2/SecondMonitor-0.7.2-windows-x64.zip",
+      "name": "SecondMonitor-0.7.2-windows-x64.zip",
+      "size": 53585678,
+      "sha256": "b17b8ac146dee744997eab4a3db48b06487396edcd7ea3a4c88c248666a3e975"
     }
   }
 }
