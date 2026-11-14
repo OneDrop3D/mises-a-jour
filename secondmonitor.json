@@ -8,10 +8,10 @@
   "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/secondmonitor-v0.7.3",
   "files": {
     "linux-x64": {
-      "url": "https://github.com/OneDrop3D/SecondMonitor/releases/download/v0.6.0/SecondMonitor-0.6.0-linux-x64.tar.gz",
-      "name": "SecondMonitor-0.6.0-linux-x64.tar.gz",
-      "size": 87628332,
-      "sha256": "1d77a9b0bbc61914eb4b5fff6655b07f027baaa182c35181415681997a66f7a5"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.3/SecondMonitor-0.7.3-linux-x64.tar.gz",
+      "name": "SecondMonitor-0.7.3-linux-x64.tar.gz",
+      "size": 88064882,
+      "sha256": "4f7be829aff7f91c2d1c5cb8b9575a343bff2ed13dfebc009fc6be6f0ba406aa"
     },
     "macos-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.3/SecondMonitor-0.7.3-mac-arm64.dmg",
