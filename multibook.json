@@ -14,10 +14,10 @@
       "sha256": "05dbaa81f1e5058c14df0b3c254d5bc079a8878bd98039502a13f13086d6befd"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.40/Multibook-0.6.40-windows-x64-installateur.exe",
-      "name": "Multibook-0.6.40-windows-x64-installateur.exe",
-      "size": 10830762,
-      "sha256": "0ea15e20901612e86bf9716cac6b1ab2c1913b4b027622e3e4527152024a58a9"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.41/Multibook-0.6.41-windows-x64-installateur.exe",
+      "name": "Multibook-0.6.41-windows-x64-installateur.exe",
+      "size": 11820013,
+      "sha256": "518996ac8820024664ac0a467467fd52fe62554a0befa912fe521516f0da84ba"
     },
     "android-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.20/Multibook-0.6.20-android.apk",

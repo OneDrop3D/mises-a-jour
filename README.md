@@ -11,7 +11,7 @@ Gratuit, sans compte et sans clé : téléchargez, installez, c'est prêt.
 | Système | Téléchargement | Taille |
 |---|---|---|
 | Mac (Apple Silicon) | [Multibook-0.6.41-mac-arm64.dmg](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.41/Multibook-0.6.41-mac-arm64.dmg) | 15 Mo |
-| Windows 64 bits | [Multibook-0.6.40-windows-x64-installateur.exe](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.40/Multibook-0.6.40-windows-x64-installateur.exe) | 11 Mo |
+| Windows 64 bits | [Multibook-0.6.41-windows-x64-installateur.exe](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.41/Multibook-0.6.41-windows-x64-installateur.exe) | 12 Mo |
 | Android | [Multibook-0.6.20-android.apk](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.20/Multibook-0.6.20-android.apk) | 82 Mo |
 | Linux (AppImage) | [Multibook_0.6.40_amd64.AppImage](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.40/Multibook_0.6.40_amd64.AppImage) | 91 Mo |
 | Linux (.deb : Ubuntu, Debian) | [Multibook_0.6.40_amd64.deb](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.40/Multibook_0.6.40_amd64.deb) | 13 Mo |
