@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.17",
-  "date": "2026-11-07",
-  "notes": "# ClickOS (firmware ESP32) 4.8.17 — nouveautés\n\n- **Bulle sur une touche** : plus de bandes sombres sur la bulle quand la touche appuyée se trouve dessous.\n- **Fin d'un envoi** : la grille se prépare derrière l'écran d'enregistrement et les touches arrivent sans passage au noir ni saut d'image.\n- **Télémétrie** : le boîtier donne la charge de ses deux cœurs, sa mémoire, son stockage, sa température et le rythme de l'écran.\n- **Boîtier neuf ou réinitialisé** : il affiche les touches du Modèle 1 de l'application, sur deux pages, au lieu des 12 anciennes touches de démonstration. Les images arrivent avec l'application.\n- **Curseurs** : quatre formes (barre, verticale, arc, jauge) et un interrupteur. Ceux qui suivent un réglage de l'ordinateur montrent son niveau réel. Le doigt est suivi aussi sur les modèles d'une seule page.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.17",
+  "version": "4.8.19",
+  "date": "2026-11-18",
+  "notes": "# ClickOS (firmware ESP32) 4.8.19 — nouveautés\n\n- **Modèle abîmé** : un modèle gardé dont l'écriture a été coupée, par un débranchement par exemple, est retiré au démarrage, et l'application le renvoie. Le boîtier ne retombe plus sur le Modèle 1 pendant que l'application croit afficher un autre modèle.\n- **Touches de course** : ClickOS affiche les touches « course » de SecondMonitor, de 1 × 1 à 4 × 2 : des lignes de texte en couleur, de la petite étiquette aux grands chiffres, un classement avec votre ligne en surbrillance et des jauges. Seules les touches qui changent sont redessinées. Un appui sur la touche Radio parle à l'ingénieur IA.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.19",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.17/clickos-v4.8.17.zip",
-      "name": "clickos-v4.8.17.zip",
-      "size": 617770,
-      "sha256": "6b0b03115fcfd1d9f403a66929671b791ae17e91c57f2e949b8d18367db1f67f"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.19/clickos-v4.8.19.zip",
+      "name": "clickos-v4.8.19.zip",
+      "size": 622311,
+      "sha256": "fdf2301d5c74fadfec3cf80ea0b911b7223d0f8aeff8758806bbfb7d2de2ebcb"
     }
   },
-  "minAppVersion": "1.18.16"
+  "minAppVersion": "1.18.18"
 }
