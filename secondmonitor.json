@@ -14,16 +14,16 @@
       "sha256": "7a0eee8be0a31777c7676fe3dd8b7eb59547c8c5fdecbbadd6dde3ebb3d2fc6e"
     },
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.5/SecondMonitor-0.7.5-mac-arm64.dmg",
-      "name": "SecondMonitor-0.7.5-mac-arm64.dmg",
-      "size": 83916415,
-      "sha256": "64d7e500f92b98d0bc2a3b25ac4c41aacad8bd08e85c5bcb50dad79086ebeb1c"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.6/SecondMonitor-0.7.6-mac-arm64.dmg",
+      "name": "SecondMonitor-0.7.6-mac-arm64.dmg",
+      "size": 83968755,
+      "sha256": "6257d8f6cf3aa977c308a9e59873b56fed79c2ffd18537b9b989dedf5917d12e"
     },
     "macos-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.5/SecondMonitor-0.7.5-mac-x64.dmg",
-      "name": "SecondMonitor-0.7.5-mac-x64.dmg",
-      "size": 88896526,
-      "sha256": "1e35026ff0d253e19639b314900e86c085fd8fbfc361f975fceca572471e799e"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.6/SecondMonitor-0.7.6-mac-x64.dmg",
+      "name": "SecondMonitor-0.7.6-mac-x64.dmg",
+      "size": 88925633,
+      "sha256": "6145e2da0bc6502790d88a338878b1d71860b21b38aa4b310151a108c3c99972"
     },
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.5/SecondMonitor-0.7.5-windows-x64-installation.exe",
