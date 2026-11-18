@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "secondmonitor",
   "channel": "stable",
-  "version": "0.7.5",
-  "date": "2026-11-16",
-  "notes": "# SecondMonitor 0.7.5 — nouveautés\n\n- **Windows, fenêtre noire au lancement** : l'interface s'ouvre dans le navigateur au bout de 6 s au lieu de 15, et SecondMonitor retient de démarrer la fenêtre sans accélération graphique au lancement suivant (cause habituelle d'une fenêtre WebView2 noire).\n- **Mises à jour automatiques** : avec « Vérifier automatiquement » coché, la nouvelle version se télécharge et s'installe toute seule (SecondMonitor redémarre), jamais pendant une session de jeu : elle attend que le jeu n'envoie plus rien depuis 2 minutes. Même chose pour le collecteur du PC de jeu. Une version mise de côté avec « Plus tard » ne s'installe pas toute seule.\n- **PC de jeu relié par câble** (Ethernet, adaptateur USB-C vers Ethernet, ou câble USB4 / Thunderbolt quand le PC le permet) : SecondMonitor cherche maintenant le collecteur sur toutes les connexions du Mac, pas seulement la principale ; plus besoin de saisir l'adresse du câble. Nécessite le collecteur à jour sur le PC de jeu.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/secondmonitor-v0.7.5",
+  "version": "0.7.6",
+  "date": "2026-11-18",
+  "notes": "# SecondMonitor 0.7.6 — nouveautés\n\n- **Relais rallongé à la voix** : dites « on rallonge le relais de deux tours », « je veux faire deux tours de plus » ou « et si on fait trois tours de moins ? » ; l'ingénieur donne le nouveau tour d'arrêt, la consommation à viser par tour (énergie et essence), dit si c'est jouable (à une question, il demande « On le fait ? » : répondez « oui », « on le fait », « vas-y » ou « ok » pour décider), règle le menu des stands de LMU sur ce nouveau plan, indique où lever le pied (virages, distance avant le freinage, d'après votre essai de lift and coast ou en estimation) et vous dit à chaque tour si vous êtes dans la cible.\n- **Carnet, bilan par tour** : pour une session passée, ouvrez les catégories Temps au tour, Essence, Énergie virtuelle et Pneus (usure de chaque roue) : la valeur de chaque tour, la moyenne de chaque relais (avec sa gomme) et celle de la course. Décochez un tour (accident, safety car…) pour le retirer des moyennes, recochez-le pour l'y remettre ; le choix est enregistré dans le carnet. Les tours au stand et les tours invalides hors du rythme sont retirés d'office. Les anciens carnets n'ont que les temps : l'essence, l'énergie et l'usure par tour sont enregistrées à partir de cette version.\n- **Carte des zones de vitesse** : dans Vitesses & trajectoires › Zones et profils, une carte du circuit montre les lignes droites (vert, Vmax) et les virages (orange, Vmin) avec leur numéro ; survolez ou touchez une zone, sur la carte ou dans le tableau, pour la mettre en évidence des deux côtés et lire sa valeur pour les pilotes comparés (un clic la garde, et sa colonne vient au milieu du tableau). Au Mans, les zones portent leur nom : Dunlop, Esses de la Forêt, Tertre Rouge, Hunaudières et ses deux chicanes, Mulsanne, Indianapolis, Arnage, Virages Porsche, Chicane Ford.\n- **Écart avec la voiture de devant** : en course, le bandeau du haut (sur tous les écrans, dont le Chronométrage) affiche la voiture devant vous dans votre catégorie, l'écart, et ce que vous reprenez ou perdez par tour (moyenne des 3 derniers tours).",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/secondmonitor-v0.7.6",
   "files": {
     "linux-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.5/SecondMonitor-0.7.5-linux-x64.tar.gz",
-      "name": "SecondMonitor-0.7.5-linux-x64.tar.gz",
-      "size": 88109247,
-      "sha256": "bd76460e583dd0509a1bb58d3e9faa8e878364f2633ece90cee64fabb2837e6a"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.6/SecondMonitor-0.7.6-linux-x64.tar.gz",
+      "name": "SecondMonitor-0.7.6-linux-x64.tar.gz",
+      "size": 88142761,
+      "sha256": "7a0eee8be0a31777c7676fe3dd8b7eb59547c8c5fdecbbadd6dde3ebb3d2fc6e"
     },
     "macos-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.5/SecondMonitor-0.7.5-mac-arm64.dmg",
