@@ -14,22 +14,22 @@
       "sha256": "6fcd7930e8690aa0b86ba22265f2bfcdc08ddd6a43014e7dfad6c07429cb7aa5"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.20/Clickdeck-1.18.20.AppImage",
-      "name": "Clickdeck-1.18.20.AppImage",
-      "size": 121356519,
-      "sha256": "6b40f465f79e11f49af67077be6c2645cff4cc2f1c5d560efc40981e0bbdb8c4"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.21/Clickdeck-1.18.21.AppImage",
+      "name": "Clickdeck-1.18.21.AppImage",
+      "size": 121992080,
+      "sha256": "de002907cb42418d4223fa5aea180687cc04f85d975ec29938e9d51f554ce9b3"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.20/clickdeck-desktop_1.18.20_amd64.deb",
-      "name": "clickdeck-desktop_1.18.20_amd64.deb",
-      "size": 85917210,
-      "sha256": "a37918b960dc290806693bfe0b10037021174d401e9524dd8339d755471a139c"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.21/clickdeck-desktop_1.18.21_amd64.deb",
+      "name": "clickdeck-desktop_1.18.21_amd64.deb",
+      "size": 86434332,
+      "sha256": "0e8acda92e666968bb6f8d07fa29edd3903a58f739b6809108aa077c16676e43"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.20/clickdeck-desktop-1.18.20.x86_64.rpm",
-      "name": "clickdeck-desktop-1.18.20.x86_64.rpm",
-      "size": 85715869,
-      "sha256": "fc10ef2e0eb8ba789e813e177faccd1f1664a7f87a0b0946a0cb01352d37543e"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.21/clickdeck-desktop-1.18.21.x86_64.rpm",
+      "name": "clickdeck-desktop-1.18.21.x86_64.rpm",
+      "size": 86256921,
+      "sha256": "df53ff15eb541c6d4cf717ebbd5beabdd0e393354cd247a43c36973e8bbfb248"
     },
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickdeck-app-v1.18.21/Clickdeck-Setup-1.18.21.exe",
