@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.22",
+  "version": "4.8.23",
   "date": "2026-11-19",
-  "notes": "# ClickOS (firmware ESP32) 4.8.22 — nouveautés\n\n- **Bords des touches vraiment gris** : le contour des cases vides et des touches grises ne tire plus au vert ni au rose, quels que soient les réglages de l'image, coins arrondis compris.\n- **Envoi d'un modèle d'un seul tenant** : un seul écran, le nom du modèle et une barre qui avance pendant l'envoi puis pendant l'écriture, sans rien qui saute de place. La vague part de cet écran et fait seule apparaître les touches : les icônes ne s'affichent plus deux fois.\n- **Vague fluide** : elle suit maintenant la cadence de l'écran, 36 images par seconde contre 17 avant, et ne saute plus au milieu de son passage. L'anneau est un peu plus fin.\n- **Boîtier neuf ou réinitialisé** : il affiche le nouveau Modèle 1, avec ses interrupteurs Wi-Fi, Bluetooth, Ne pas déranger et mode sombre et ses curseurs de volume et de luminosité ; ils prennent l'état de l'ordinateur dès que l'application est branchée.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.22",
+  "notes": "# ClickOS (firmware ESP32) 4.8.23 — nouveautés\n\n- **Branchement** : le modèle arrive par la vague, depuis le logo, au lieu des touches qui tombaient une à une en diagonale. Le boîtier prépare tout avant et pendant le logo.\n- **Plus de soubresaut à la fin de la vague** : le boîtier n'écrit plus en mémoire quand l'écran est allumé ; le modèle affiché et sa page s'enregistrent au prochain envoi ou écran masqué. L'image ne décroche plus à la fin d'une vague ni après un changement de page.\n- **Vague plus régulière** : sa vitesse change à peine d'un bout à l'autre ; elle dure 0,72 s.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.23",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.22/clickos-v4.8.22.zip",
-      "name": "clickos-v4.8.22.zip",
-      "size": 628984,
-      "sha256": "76b724ffc3ee24ee6ce6d393869fb2a678116ca611ea326fd258a71a9dabf6f1"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.23/clickos-v4.8.23.zip",
+      "name": "clickos-v4.8.23.zip",
+      "size": 629229,
+      "sha256": "c1a23b5b1307638a0349e21d98c89a373ff0bb42565672c7c14237e4ee3e753b"
     }
   },
-  "minAppVersion": "1.18.21"
+  "minAppVersion": "1.18.22"
 }
