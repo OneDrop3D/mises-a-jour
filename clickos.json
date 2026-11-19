@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.21",
+  "version": "4.8.22",
   "date": "2026-11-19",
-  "notes": "# ClickOS (firmware ESP32) 4.8.21 — nouveautés\n\n- **Vague plus fluide et transparente** : la vague du changement de modèle est un anneau de verre clair, à travers lequel on voit les touches pendant que l'ancien modèle se fond dans le nouveau ; ses bords courbent ce qu'ils traversent et prennent la lumière. Les deux cœurs du ClickDeck la dessinent ensemble.\n- **Glissement de page sans à-coup** : la page ne saute plus sur le doigt au début d'un glissement, elle le rejoint en quelques images ; et une touche ne s'enfonce plus quand on part tout de suite en glissant.\n- **Curseurs réglés par position** : un curseur de molette peut garder sa position au lieu de revenir au milieu ; il faut la nouvelle version de l'application.\n- **Liaison plus rapide quand l'ordinateur le permet** : pendant un envoi, ClickOS accepte jusqu'à 2 Mbaud et répond à un contrôle de la liaison, pour que l'application ne garde que les vitesses qui tiennent vraiment.\n- **Premier démarrage après une installation** : le stockage n'est plus formaté qu'une fois, sous l'écran d'écriture, au lieu d'une minute d'écran noir.\n- **Touches Allumée / Éteinte** : une touche Wi-Fi, Bluetooth, mode avion, Ne pas déranger ou mode sombre change d'apparence dès que l'état change sur l'ordinateur, par exemple pleine et bleue avec l'icône Wi-Fi quand il est allumé, claire avec le Wi-Fi barré quand il est coupé. Seule la touche concernée se redessine.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.21",
+  "notes": "# ClickOS (firmware ESP32) 4.8.22 — nouveautés\n\n- **Bords des touches vraiment gris** : le contour des cases vides et des touches grises ne tire plus au vert ni au rose, quels que soient les réglages de l'image, coins arrondis compris.\n- **Envoi d'un modèle d'un seul tenant** : un seul écran, le nom du modèle et une barre qui avance pendant l'envoi puis pendant l'écriture, sans rien qui saute de place. La vague part de cet écran et fait seule apparaître les touches : les icônes ne s'affichent plus deux fois.\n- **Vague fluide** : elle suit maintenant la cadence de l'écran, 36 images par seconde contre 17 avant, et ne saute plus au milieu de son passage. L'anneau est un peu plus fin.\n- **Boîtier neuf ou réinitialisé** : il affiche le nouveau Modèle 1, avec ses interrupteurs Wi-Fi, Bluetooth, Ne pas déranger et mode sombre et ses curseurs de volume et de luminosité ; ils prennent l'état de l'ordinateur dès que l'application est branchée.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.22",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.21/clickos-v4.8.21.zip",
-      "name": "clickos-v4.8.21.zip",
-      "size": 629694,
-      "sha256": "3ad7a5d95321c3afdea940154bdcaab61f3ad1e38e147497e34848978d9d1e8e"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.22/clickos-v4.8.22.zip",
+      "name": "clickos-v4.8.22.zip",
+      "size": 628984,
+      "sha256": "76b724ffc3ee24ee6ce6d393869fb2a678116ca611ea326fd258a71a9dabf6f1"
     }
   },
-  "minAppVersion": "1.18.20"
+  "minAppVersion": "1.18.21"
 }
