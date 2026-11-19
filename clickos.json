@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.19",
-  "date": "2026-11-18",
-  "notes": "# ClickOS (firmware ESP32) 4.8.19 — nouveautés\n\n- **Modèle abîmé** : un modèle gardé dont l'écriture a été coupée, par un débranchement par exemple, est retiré au démarrage, et l'application le renvoie. Le boîtier ne retombe plus sur le Modèle 1 pendant que l'application croit afficher un autre modèle.\n- **Touches de course** : ClickOS affiche les touches « course » de SecondMonitor, de 1 × 1 à 4 × 2 : des lignes de texte en couleur, de la petite étiquette aux grands chiffres, un classement avec votre ligne en surbrillance et des jauges. Seules les touches qui changent sont redessinées. Un appui sur la touche Radio parle à l'ingénieur IA.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.19",
+  "version": "4.8.20",
+  "date": "2026-11-19",
+  "notes": "# ClickOS (firmware ESP32) 4.8.20 — nouveautés\n\n- **Vague au changement de modèle** : une vague part de la prise USB-C et traverse l'écran. En montant, elle soulève les touches et efface leur contenu ; en redescendant, elle laisse les touches du nouveau modèle, avec la lumière et la déformation d'un verre liquide sur ses bords. Elle remplace le fondu au noir et l'arrivée en diagonale après un envoi.\n- **Changement de modèle sans écran noir** : les modèles gardés restent aussi en mémoire, et passer de l'un à l'autre ne lit plus la flash ; l'écran reste allumé du début à la fin.\n- **Envoi d'un modèle plus court** : l'écran de chargement va plus vite (nom, icônes qui arrivent), et l'écran d'écriture prend la suite sans passer par le noir.\n- **Modèles téléchargés rangés sans changer l'écran** : le boîtier peut garder un modèle sans l'afficher. Il ne remplit jamais son stockage (une réserve reste libre), ne retire jamais le modèle affiché, et refuse au-delà de 48 modèles.\n- **Toucher plus réactif** : une touche s'enfonce dès que le doigt se pose, sans attendre qu'il se lève ; un glissement de page ne la montre pas enfoncée. Son retour d'appui suit la cadence de l'écran (36 images par seconde au lieu de 30).",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.20",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.19/clickos-v4.8.19.zip",
-      "name": "clickos-v4.8.19.zip",
-      "size": 622311,
-      "sha256": "fdf2301d5c74fadfec3cf80ea0b911b7223d0f8aeff8758806bbfb7d2de2ebcb"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.20/clickos-v4.8.20.zip",
+      "name": "clickos-v4.8.20.zip",
+      "size": 627165,
+      "sha256": "43d767da8f1f03b60ca38117e187a03e4df594c0f8983a907f7a9fc9bd791a47"
     }
   },
-  "minAppVersion": "1.18.18"
+  "minAppVersion": "1.18.19"
 }
