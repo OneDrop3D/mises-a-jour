@@ -2,17 +2,17 @@
   "schema": 1,
   "product": "clickos",
   "channel": "stable",
-  "version": "4.8.20",
+  "version": "4.8.21",
   "date": "2026-11-19",
-  "notes": "# ClickOS (firmware ESP32) 4.8.20 — nouveautés\n\n- **Vague au changement de modèle** : une vague part de la prise USB-C et traverse l'écran. En montant, elle soulève les touches et efface leur contenu ; en redescendant, elle laisse les touches du nouveau modèle, avec la lumière et la déformation d'un verre liquide sur ses bords. Elle remplace le fondu au noir et l'arrivée en diagonale après un envoi.\n- **Changement de modèle sans écran noir** : les modèles gardés restent aussi en mémoire, et passer de l'un à l'autre ne lit plus la flash ; l'écran reste allumé du début à la fin.\n- **Envoi d'un modèle plus court** : l'écran de chargement va plus vite (nom, icônes qui arrivent), et l'écran d'écriture prend la suite sans passer par le noir.\n- **Modèles téléchargés rangés sans changer l'écran** : le boîtier peut garder un modèle sans l'afficher. Il ne remplit jamais son stockage (une réserve reste libre), ne retire jamais le modèle affiché, et refuse au-delà de 48 modèles.\n- **Toucher plus réactif** : une touche s'enfonce dès que le doigt se pose, sans attendre qu'il se lève ; un glissement de page ne la montre pas enfoncée. Son retour d'appui suit la cadence de l'écran (36 images par seconde au lieu de 30).",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.20",
+  "notes": "# ClickOS (firmware ESP32) 4.8.21 — nouveautés\n\n- **Vague plus fluide et transparente** : la vague du changement de modèle est un anneau de verre clair, à travers lequel on voit les touches pendant que l'ancien modèle se fond dans le nouveau ; ses bords courbent ce qu'ils traversent et prennent la lumière. Les deux cœurs du ClickDeck la dessinent ensemble.\n- **Glissement de page sans à-coup** : la page ne saute plus sur le doigt au début d'un glissement, elle le rejoint en quelques images ; et une touche ne s'enfonce plus quand on part tout de suite en glissant.\n- **Curseurs réglés par position** : un curseur de molette peut garder sa position au lieu de revenir au milieu ; il faut la nouvelle version de l'application.\n- **Liaison plus rapide quand l'ordinateur le permet** : pendant un envoi, ClickOS accepte jusqu'à 2 Mbaud et répond à un contrôle de la liaison, pour que l'application ne garde que les vitesses qui tiennent vraiment.\n- **Premier démarrage après une installation** : le stockage n'est plus formaté qu'une fois, sous l'écran d'écriture, au lieu d'une minute d'écran noir.\n- **Touches Allumée / Éteinte** : une touche Wi-Fi, Bluetooth, mode avion, Ne pas déranger ou mode sombre change d'apparence dès que l'état change sur l'ordinateur, par exemple pleine et bleue avec l'icône Wi-Fi quand il est allumé, claire avec le Wi-Fi barré quand il est coupé. Seule la touche concernée se redessine.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/clickos-v4.8.21",
   "files": {
     "esp32-s3": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.20/clickos-v4.8.20.zip",
-      "name": "clickos-v4.8.20.zip",
-      "size": 627165,
-      "sha256": "43d767da8f1f03b60ca38117e187a03e4df594c0f8983a907f7a9fc9bd791a47"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/clickos-v4.8.21/clickos-v4.8.21.zip",
+      "name": "clickos-v4.8.21.zip",
+      "size": 629694,
+      "sha256": "3ad7a5d95321c3afdea940154bdcaab61f3ad1e38e147497e34848978d9d1e8e"
     }
   },
-  "minAppVersion": "1.18.19"
+  "minAppVersion": "1.18.20"
 }
