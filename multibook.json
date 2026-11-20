@@ -8,10 +8,10 @@
   "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.44",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.43/Multibook-0.6.43-mac-arm64.dmg",
-      "name": "Multibook-0.6.43-mac-arm64.dmg",
-      "size": 15106814,
-      "sha256": "7540da715181ba887aa4e7399c9687075938ebc54bb74f4b92e1a43d5149804f"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.44/Multibook-0.6.44-mac-arm64.dmg",
+      "name": "Multibook-0.6.44-mac-arm64.dmg",
+      "size": 15379020,
+      "sha256": "bf5cb4651fc0fb724439b62161fa8db1380deca329188597f08525cd2e8e06f6"
     },
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.44/Multibook-0.6.44-windows-x64-installateur.exe",
