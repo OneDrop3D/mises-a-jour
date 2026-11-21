@@ -2,10 +2,10 @@
   "schema": 1,
   "product": "printforge",
   "channel": "stable",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "date": "2026-11-21",
-  "notes": "# OneDrop PrintForge 0.1.2 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.2",
+  "notes": "# OneDrop PrintForge 0.1.3 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.3",
   "files": {
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.2/OneDrop-PrintForge_0.1.2_x64-setup.exe",
@@ -14,10 +14,10 @@
       "sha256": "c2839c2b40ffa89a07772eb7f07bd028d4452c81d7aa1b335665c77588e5554c"
     },
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.2/OneDrop-PrintForge-0.1.2-mac-arm64.dmg",
-      "name": "OneDrop-PrintForge-0.1.2-mac-arm64.dmg",
-      "size": 3477258,
-      "sha256": "e491cf43039d8a207c82306fecd7299bdc61221fd100b2a4ea6aec5121714028"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.3/OneDrop-PrintForge-0.1.3-mac-arm64.dmg",
+      "name": "OneDrop-PrintForge-0.1.3-mac-arm64.dmg",
+      "size": 3492374,
+      "sha256": "8b55e3bded75433a3531087b3f737999075e07e8e4d3999578252fe3d0069cc7"
     }
   }
 }
