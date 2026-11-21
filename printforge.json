@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "product": "printforge",
+  "channel": "stable",
+  "version": "0.1.1",
+  "date": "2026-11-21",
+  "notes": "# OneDrop PrintForge 0.1.1 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.1",
+  "files": {
+    "windows-x64": {
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.1/OneDrop-PrintForge_0.1.1_x64-setup.exe",
+      "name": "OneDrop-PrintForge_0.1.1_x64-setup.exe",
+      "size": 2554568,
+      "sha256": "b7656af478d27c3e477f4fa466dce80af584f21441d6ee542f7050a10bdf2609"
+    }
+  }
+}
