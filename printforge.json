@@ -2,10 +2,10 @@
   "schema": 1,
   "product": "printforge",
   "channel": "stable",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "date": "2026-11-22",
-  "notes": "# OneDrop PrintForge 0.1.6 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.6",
+  "notes": "# OneDrop PrintForge 0.1.7 — nouveautés\n\n- **Installation sur Mac** : le fichier .dmg montre l'application à côté d'un raccourci « Applications » ; il suffit de glisser l'une sur l'autre, sans ouvrir de Finder.\n- **Firmware** : un bouton « Actualiser la liste » relit les versions de la CORE One et du MMU3 sur GitHub ; la liste se relit aussi toute seule en ouvrant l'onglet Firmware si elle a plus de 5 minutes.\n- **Firmware du MMU3** : installation du firmware du MMU par le port USB de sa carte, version OneDrop3D ou officielle Prusa, vérifiée avant et après l'écriture.\n- **Windows** : l'installeur Windows est de nouveau construit.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.7",
   "files": {
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.2/OneDrop-PrintForge_0.1.2_x64-setup.exe",
@@ -14,10 +14,10 @@
       "sha256": "c2839c2b40ffa89a07772eb7f07bd028d4452c81d7aa1b335665c77588e5554c"
     },
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.6/OneDrop-PrintForge-0.1.6-mac-arm64.dmg",
-      "name": "OneDrop-PrintForge-0.1.6-mac-arm64.dmg",
-      "size": 3523916,
-      "sha256": "8265fdbfe49741c414f6b954dfff3822753acf7ca8753c73d4b10eb388f57ad6"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.7/OneDrop-PrintForge-0.1.7-mac-arm64.dmg",
+      "name": "OneDrop-PrintForge-0.1.7-mac-arm64.dmg",
+      "size": 3523866,
+      "sha256": "71c37784f2be557ecbddb456e1db13a2ae812e9debf4c3c4453908f8dbad4e71"
     }
   }
 }
