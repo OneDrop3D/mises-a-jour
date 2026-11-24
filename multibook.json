@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "multibook",
   "channel": "stable",
-  "version": "0.6.46",
-  "date": "2026-11-23",
-  "notes": "# Multibook 0.6.46 — nouveautés\n\n- **Correcteur** : le menu de la langue, en bas à gauche, permet de désactiver (et de réactiver) le correcteur ; coupé, il ne souligne plus rien nulle part, et la barre du bas l'indique.\n- **Correcteur** : la feuille ne passe plus par le soulignement de Windows au démarrage, qui pouvait marquer chaque mot de points rouges.\n- **Fluidité** : sur un PC (Windows, Linux, Mac Intel), le réglage Automatique met Multibook en mode Léger d'office : sur un Ryzen 5, par exemple, les animations saccadaient alors que rien ne le laissait deviner (Paramètres › Interface › Apparence › Fluidité › « Toutes les finitions » rend l'effet génie). Sur un Mac à puce Apple, il garde toutes les finitions tant qu'elles suivent.\n- **Fluidité** : en mode Léger, une autre feuille s'affiche tout de suite, sans animer la feuille entière ni recopier ce qu'on en voyait.\n- **Fluidité** : ouvrir une feuille ne remet plus toute la page en forme au milieu du clic pour compter ses mots et deviner sa langue, et le repère des onglets, du rail et des Paramètres se place une fois par image au lieu d'une fois par changement.\n- **Voix** : sous Windows, Linux et sur un Mac Intel, Multibook propose LFM3 Omni pour la lecture à voix haute ; Phonon, qu'Ollama ne fait tourner que sur un Mac à puce Apple, n'y est plus proposé.\n- **Jeux de frappe** : en dictée de mots, une voix qui ne répond pas (Phonon sous Windows, Ollama arrêté) éteint la dictée et fait réapparaître le texte, au lieu de laisser une ligne de points muette.\n- **Jeux de frappe** : en mode Léger, les touches du fond, les voitures et la touche à frapper cessent de s'animer sans fin.\n- **Fluidité** : en mode Léger, menus, fenêtres et feuilles s'ouvrent par une animation simple au lieu de l'effet génie, le thème change d'un coup, et les grandes ombres, animations sans fin et calques préparés au survol disparaissent dans toute l'application.\n- **Fluidité** : faire défiler une feuille, ouvrir une fiche ou un document, changer de cahier ou déplier un intercalaire ne réécrit plus tous les cahiers une seconde après ; chaque enregistrement ne recopie plus l'ancien fichier.\n- **Fluidité** : la frappe ne recompte plus les mots à chaque lettre, et les feuilles sans flèche ne cherchent plus à redessiner leurs annotations.\n- **Fluidité** : changer de thème ne fait plus transiter les couleurs de centaines de boutons à la fois ; un classeur ouvert ne se redessine plus à chaque animation.\n- **Jeux de frappe** : les voitures de la course avancent sans remettre la page en page à chaque image.\n- **Sauvegardes** : la copie automatique du démarrage attend un moment calme et se sérialise deux fois plus vite.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.46",
+  "version": "0.6.47",
+  "date": "2026-11-24",
+  "notes": "# Multibook 0.6.47 — nouveautés\n\n- **Cases à cocher** : une case cochée le reste après avoir fermé puis rouvert la feuille (la ligne restait barrée mais la case se vidait, et un clic la cochait sans débarrer la ligne) ; les feuilles déjà touchées retrouvent leurs coches à l'ouverture. Cocher est un pas d'annulation à part.\n- **Fenêtre** : Multibook s'ouvre en grand, sur tout l'écran, sous Windows, macOS et Linux ; Restaurer la ramène à sa taille d'avant.\n- **Windows** : le bouton Restaurer de la barre de titre montre ses deux carrés décalés, comme les autres applications, au lieu de deux carrés empilés.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/multibook-v0.6.47",
   "files": {
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.46/Multibook-0.6.46-mac-arm64.dmg",
-      "name": "Multibook-0.6.46-mac-arm64.dmg",
-      "size": 15384537,
-      "sha256": "adb7248d56e5a47b2656f9e64954cd55b17cd360a97b97b559d4a9dbe19738a9"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.47/Multibook-0.6.47-mac-arm64.dmg",
+      "name": "Multibook-0.6.47-mac-arm64.dmg",
+      "size": 15385586,
+      "sha256": "2da5f6da7ccc5019e848d6b6b008e1bf749bc5e360c9cb2aa71f610f70bead44"
     },
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.46/Multibook-0.6.46-windows-x64-installateur.exe",
