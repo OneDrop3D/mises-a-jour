@@ -26,16 +26,16 @@
       "sha256": "49019e907df7701d8888344094fc31412e3629c64d9cc34a41a1ba3c6a423884"
     },
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.10/SecondMonitor-0.7.10-windows-x64-installation.exe",
-      "name": "SecondMonitor-0.7.10-windows-x64-installation.exe",
-      "size": 40311425,
-      "sha256": "65a5e8ade6bd3cce9edfd50bb90f65f25d2b1ff91406f53e89c5a5d362a21095"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.11/SecondMonitor-0.7.11-windows-x64-installation.exe",
+      "name": "SecondMonitor-0.7.11-windows-x64-installation.exe",
+      "size": 40334887,
+      "sha256": "ce84da2d0c92416a7d7b3e76383ce51772e0a50463ce6de78cfcbf616719b476"
     },
     "windows-x64-zip": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.10/SecondMonitor-0.7.10-windows-x64.zip",
-      "name": "SecondMonitor-0.7.10-windows-x64.zip",
-      "size": 53842102,
-      "sha256": "b4d79bc44dbc19620b479d1e03e1000195884d31b1bcdc021978adafcacc4af4"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.11/SecondMonitor-0.7.11-windows-x64.zip",
+      "name": "SecondMonitor-0.7.11-windows-x64.zip",
+      "size": 53861287,
+      "sha256": "c902608c9321b1ecb11fd7b332862292de5fb836d369b08feb19e2346df19ece"
     }
   }
 }
