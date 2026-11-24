@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "secondmonitor",
   "channel": "stable",
-  "version": "0.7.9",
+  "version": "0.7.10",
   "date": "2026-11-24",
-  "notes": "# SecondMonitor 0.7.9 — nouveautés\n\n- **Ingénieur IA** : le contexte envoyé à Ollama est limité à 8192 jetons, pour que le modèle consomme moins de mémoire (RAM) sur le Mac.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/secondmonitor-v0.7.9",
+  "notes": "# SecondMonitor 0.7.10 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/secondmonitor-v0.7.10",
   "files": {
     "linux-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.9/SecondMonitor-0.7.9-linux-x64.tar.gz",
-      "name": "SecondMonitor-0.7.9-linux-x64.tar.gz",
-      "size": 88174522,
-      "sha256": "ef4b88ca2c84f61948f8c001565a06a32bb2a4863552ac1971058dae6b6344b3"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.10/SecondMonitor-0.7.10-linux-x64.tar.gz",
+      "name": "SecondMonitor-0.7.10-linux-x64.tar.gz",
+      "size": 88175252,
+      "sha256": "c9938e5d3148522e806d0beb4153e223363a1194b0bf61077db72f8781c10ec4"
     },
     "macos-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.9/SecondMonitor-0.7.9-mac-arm64.dmg",
