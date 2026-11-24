@@ -2,16 +2,16 @@
   "schema": 1,
   "product": "secondmonitor",
   "channel": "stable",
-  "version": "0.7.10",
+  "version": "0.7.11",
   "date": "2026-11-24",
-  "notes": "# SecondMonitor 0.7.10 — nouveautés",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/secondmonitor-v0.7.10",
+  "notes": "# SecondMonitor 0.7.11 — nouveautés",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/secondmonitor-v0.7.11",
   "files": {
     "linux-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.10/SecondMonitor-0.7.10-linux-x64.tar.gz",
-      "name": "SecondMonitor-0.7.10-linux-x64.tar.gz",
-      "size": 88175252,
-      "sha256": "c9938e5d3148522e806d0beb4153e223363a1194b0bf61077db72f8781c10ec4"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.11/SecondMonitor-0.7.11-linux-x64.tar.gz",
+      "name": "SecondMonitor-0.7.11-linux-x64.tar.gz",
+      "size": 88195671,
+      "sha256": "8fc48ef89026af26ecdf15213c1214c66001c8e4b7f81fac5ba07590a2724869"
     },
     "macos-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/secondmonitor-v0.7.9/SecondMonitor-0.7.9-mac-arm64.dmg",
