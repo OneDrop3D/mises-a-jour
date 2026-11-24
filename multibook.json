@@ -26,22 +26,22 @@
       "sha256": "057a678cf1aa7c9bd42925b3cb5a6394c44476d2cbc2e77286d9c08fea97d305"
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.46/Multibook_0.6.46_amd64.AppImage",
-      "name": "Multibook_0.6.46_amd64.AppImage",
-      "size": 92006904,
-      "sha256": "cbaaa7db2d3e8f36c66a0a8443c64cfe664da9e0f21464b06a9076aa34093a2c"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.47/Multibook_0.6.47_amd64.AppImage",
+      "name": "Multibook_0.6.47_amd64.AppImage",
+      "size": 92011000,
+      "sha256": "4430b76cb4bb348aa92631f54f7ec120da89f3feda9b064f5f79e8151ce33112"
     },
     "linux-x64-deb": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.46/Multibook_0.6.46_amd64.deb",
-      "name": "Multibook_0.6.46_amd64.deb",
-      "size": 13887166,
-      "sha256": "bed70f3219fb1d74cfb5fb757d7572555b12d472f274c11c048475de0087bd3a"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.47/Multibook_0.6.47_amd64.deb",
+      "name": "Multibook_0.6.47_amd64.deb",
+      "size": 13887350,
+      "sha256": "80b3dd4cb0a321a9b1c7826e6520d0248034d87b1211add33cf3c9237b526067"
     },
     "linux-x64-rpm": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.46/Multibook-0.6.46-1.x86_64.rpm",
-      "name": "Multibook-0.6.46-1.x86_64.rpm",
-      "size": 13874739,
-      "sha256": "7813ace7103df91a3eedfc36a58d360cc6a93239d82c4d8574781a0134e567be"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.47/Multibook-0.6.47-1.x86_64.rpm",
+      "name": "Multibook-0.6.47-1.x86_64.rpm",
+      "size": 13874924,
+      "sha256": "53340cb20ff9ea2806389f90e1c36081959ca9383fb9ac975c448d0476ba4e76"
     }
   }
 }
