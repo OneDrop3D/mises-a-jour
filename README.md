@@ -6,12 +6,12 @@ Gratuit, sans compte et sans clé : téléchargez, installez, c'est prêt.
 ## Télécharger
 
 <!-- telechargements:debut -->
-**Version 0.6.48**, publiée le 2026-11-25.
+**Version 0.6.49**, publiée le 2026-11-25.
 
 | Système | Téléchargement | Taille |
 |---|---|---|
 | Mac (Apple Silicon) | [Multibook-0.6.48-mac-arm64.dmg](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.48/Multibook-0.6.48-mac-arm64.dmg) | 15 Mo |
-| Windows 64 bits | [Multibook-0.6.48-windows-x64-installateur.exe](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.48/Multibook-0.6.48-windows-x64-installateur.exe) | 12 Mo |
+| Windows 64 bits | [Multibook-0.6.49-windows-x64-installateur.exe](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.49/Multibook-0.6.49-windows-x64-installateur.exe) | 12 Mo |
 | Android | [Multibook-0.6.20-android.apk](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.20/Multibook-0.6.20-android.apk) | 82 Mo |
 | Linux (AppImage) | [Multibook_0.6.47_amd64.AppImage](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.47/Multibook_0.6.47_amd64.AppImage) | 92 Mo |
 | Linux (.deb : Ubuntu, Debian) | [Multibook_0.6.47_amd64.deb](https://github.com/OneDrop3D/mises-a-jour/releases/download/multibook-v0.6.47/Multibook_0.6.47_amd64.deb) | 14 Mo |
