@@ -2,10 +2,10 @@
   "schema": 1,
   "product": "printforge",
   "channel": "stable",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "date": "2026-11-26",
-  "notes": "# OneDrop PrintForge 0.1.10 — nouveautés\n\n- **Firmware** : un choix « Imprimante » au-dessus de la liste des versions (CORE One, One+ et One+ Gen2 ; CORE One L ; CORE One INDX ; CORE One L INDX). Chaque modèle reçoit son propre firmware. L’imprimante reliée est reconnue toute seule, le choix est gardé pour préparer la clé d’une autre imprimante, et l’installation par le réseau refuse un firmware fait pour un autre modèle.\n- **Anglais** : l’application existe aussi en anglais. Elle prend la langue de l’ordinateur (français sur un ordinateur en français, anglais sinon), et le bouton FR / EN de l’en-tête change de langue. Les messages d’erreur, la demande d’accès au réseau local sur Mac et l’installateur Windows suivent aussi la langue.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.10",
+  "notes": "# OneDrop PrintForge 0.1.11 — nouveautés\n\n- **Musique** : le fichier MIDI est joué à trois voix (la mélodie et une 2e voix sur les deux moteurs du haut, la basse sur le plateau) au lieu d’une seule note sur l’axe X, et les accords de moins de 40 ms d’un morceau joué par un humain sont lissés : la mélodie se reconnaît bien mieux. Sur une clé USB, le fichier MIDI est copié à côté du G-code, pour l’écran Musique des moteurs de l’imprimante. L’imprimante n’affiche plus l’avertissement « pas tranché pour l’input shaping » en lançant la musique.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.11",
   "files": {
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.10/OneDrop-PrintForge_0.1.10_x64-setup.exe",
@@ -14,10 +14,10 @@
       "sha256": "ee80b07418d2f013bced425c464e43e7c4c199e32df8a5688a635830198c5ac6"
     },
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.10/OneDrop-PrintForge-0.1.10-mac-arm64.dmg",
-      "name": "OneDrop-PrintForge-0.1.10-mac-arm64.dmg",
-      "size": 3540514,
-      "sha256": "407644e524f3a3859a773e95488c11fa08ca277f66b9768ed6bcac9ba7820e3e"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.11/OneDrop-PrintForge-0.1.11-mac-arm64.dmg",
+      "name": "OneDrop-PrintForge-0.1.11-mac-arm64.dmg",
+      "size": 3538496,
+      "sha256": "bcbf737b225dbb5560b492cf604a65ed5fb1044736c1707d5d8e019ec063dd2c"
     }
   }
 }
