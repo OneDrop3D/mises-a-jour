@@ -2,10 +2,10 @@
   "schema": 1,
   "product": "printforge",
   "channel": "stable",
-  "version": "0.1.8",
-  "date": "2026-11-23",
-  "notes": "# OneDrop PrintForge 0.1.8 — nouveautés\n\n- **Firmware du MMU3** : sur CORE One, la carte indique d’activer d’abord « Préparer la mise à jour USB du MMU » sur l’imprimante (OneDrop3D 8.0.2.27 ou plus récent), puis de toucher « Terminer » après l’installation.\n- **Firmware du MMU3** : l’installation n’échoue plus avec « Le MMU ne répond plus (Operation timed out) » : la présentation au chargeur du MMU suit celle d’avrdude (une commande à la fois, nouvel essai si le chargeur ne répond pas encore), et un message d’erreur nomme la commande restée sans réponse.\n- **Firmware du MMU3** : un MMU que l’ordinateur ne voit pas s’installe quand même, comme dans PrusaSlicer : « Installer sur le MMU » demande d’appuyer sur le bouton reset du MMU et attend son mode de mise à jour 30 s.",
-  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.8",
+  "version": "0.1.10",
+  "date": "2026-11-26",
+  "notes": "# OneDrop PrintForge 0.1.10 — nouveautés\n\n- **Firmware** : un choix « Imprimante » au-dessus de la liste des versions (CORE One, One+ et One+ Gen2 ; CORE One L ; CORE One INDX ; CORE One L INDX). Chaque modèle reçoit son propre firmware. L’imprimante reliée est reconnue toute seule, le choix est gardé pour préparer la clé d’une autre imprimante, et l’installation par le réseau refuse un firmware fait pour un autre modèle.\n- **Anglais** : l’application existe aussi en anglais. Elle prend la langue de l’ordinateur (français sur un ordinateur en français, anglais sinon), et le bouton FR / EN de l’en-tête change de langue. Les messages d’erreur, la demande d’accès au réseau local sur Mac et l’installateur Windows suivent aussi la langue.",
+  "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.10",
   "files": {
     "windows-x64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.2/OneDrop-PrintForge_0.1.2_x64-setup.exe",
@@ -14,10 +14,10 @@
       "sha256": "c2839c2b40ffa89a07772eb7f07bd028d4452c81d7aa1b335665c77588e5554c"
     },
     "macos-arm64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.8/OneDrop-PrintForge-0.1.8-mac-arm64.dmg",
-      "name": "OneDrop-PrintForge-0.1.8-mac-arm64.dmg",
-      "size": 3525101,
-      "sha256": "0e8100d38dd66469d1ecebacfaa828f747c83c12e32c06cf1b20fe64c711f988"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.10/OneDrop-PrintForge-0.1.10-mac-arm64.dmg",
+      "name": "OneDrop-PrintForge-0.1.10-mac-arm64.dmg",
+      "size": 3540514,
+      "sha256": "407644e524f3a3859a773e95488c11fa08ca277f66b9768ed6bcac9ba7820e3e"
     }
   }
 }
