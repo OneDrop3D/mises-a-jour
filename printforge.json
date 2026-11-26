@@ -8,10 +8,10 @@
   "page": "https://github.com/OneDrop3D/mises-a-jour/releases/tag/printforge-v0.1.10",
   "files": {
     "windows-x64": {
-      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.2/OneDrop-PrintForge_0.1.2_x64-setup.exe",
-      "name": "OneDrop-PrintForge_0.1.2_x64-setup.exe",
-      "size": 2565448,
-      "sha256": "c2839c2b40ffa89a07772eb7f07bd028d4452c81d7aa1b335665c77588e5554c"
+      "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.10/OneDrop-PrintForge_0.1.10_x64-setup.exe",
+      "name": "OneDrop-PrintForge_0.1.10_x64-setup.exe",
+      "size": 2604834,
+      "sha256": "ee80b07418d2f013bced425c464e43e7c4c199e32df8a5688a635830198c5ac6"
     },
     "macos-arm64": {
       "url": "https://github.com/OneDrop3D/mises-a-jour/releases/download/printforge-v0.1.10/OneDrop-PrintForge-0.1.10-mac-arm64.dmg",
